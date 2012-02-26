@@ -1,0 +1,34 @@
+{
+    0x0003 = "Entrée";
+ 	0x0009 = "Tab";
+    0x000d = "Retour";
+ 	0x001b = "ESC";
+    0x0020 = "Espace";
+    0x007f = "Supprimer";
+    0xf700 = "Fl. haut";
+    0xf701 = "Fl. bas";
+    0xf702 = "Fl. gauche";
+ 	0xf703 = "Fl. droite";
+ 	0xf704 = "F1";
+    0xf705 = "F2";
+    0xf706 = "F3";
+ 	0xf707 = "F4";
+    0xf708 = "F5";
+ 	0xf709 = "F6";
+ 	0xf70a = "F7";
+ 	0xf70b = "F8";
+ 	0xf70c = "F9";
+ 	0xf70d = "F10";
+    0xf70e = "F11";
+ 	0xf70f = "F12";
+ 	0xf710 = "F13";
+ 	0xf711 = "F14";
+ 	0xf712 = "F15";
+ 	0xf727 = "Insertion";
+ 	0xf728 = "Effacement";
+ 	0xf729 = "Début";
+ 	0xf72B = "Fin";
+    0xf72C = "Page préc.";
+    0xf72D = "Page suiv.";
+ 	0xf739 = "Effacement"; 	
+}

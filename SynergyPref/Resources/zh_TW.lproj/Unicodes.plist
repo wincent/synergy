@@ -1,0 +1,34 @@
+{
+    0x0003 = "Enter";
+ 	0x0009 = "Tab";
+    0x000d = "Return";
+ 	0x001b = "ESC";
+    0x0020 = "Space";
+    0x007f = "Delete";
+    0xf700 = "Up Arrow";
+    0xf701 = "Down Arrow";
+    0xf702 = "Left Arrow";
+ 	0xf703 = "Right Arrow";
+ 	0xf704 = "F1";
+    0xf705 = "F2";
+    0xf706 = "F3";
+ 	0xf707 = "F4";
+    0xf708 = "F5";
+ 	0xf709 = "F6";
+ 	0xf70a = "F7";
+ 	0xf70b = "F8";
+ 	0xf70c = "F9";
+ 	0xf70d = "F10";
+    0xf70e = "F11";
+ 	0xf70f = "F12";
+ 	0xf710 = "F13";
+ 	0xf711 = "F14";
+ 	0xf712 = "F15";
+ 	0xf727 = "Insert";
+ 	0xf728 = "Del";
+ 	0xf729 = "Home";
+ 	0xf72B = "End";
+    0xf72C = "Page Up";
+    0xf72D = "Page Down";
+ 	0xf739 = "Clear"; 	
+}

@@ -1,0 +1,6 @@
+index
+com.wincent.buildtools.gitrev.h
+*.temp
+*.bak
+
+*.lyx~

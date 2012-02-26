@@ -1,0 +1,1962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BC1567C00D186568001991C5 /* Synergy Prefs + SynergyPref */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BC1567DE0D1865B1001991C5 /* Build configuration list for PBXAggregateTarget "Synergy Prefs + SynergyPref" */;
+			buildPhases = (
+				BC1567BF0D186568001991C5 /* CopyFiles */,
+			);
+			dependencies = (
+				BC1567C40D18656E001991C5 /* PBXTargetDependency */,
+				BC1567C60D186570001991C5 /* PBXTargetDependency */,
+			);
+			name = "Synergy Prefs + SynergyPref";
+			productName = "Synergy Prefs + SynergyPref";
+		};
+		BC881F3E0D1AD08C00D969B3 /* Update build number */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BC881F500D1AD0B200D969B3 /* Build configuration list for PBXAggregateTarget "Update build number" */;
+			buildPhases = (
+				BC881F3D0D1AD08C00D969B3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Update build number";
+			productName = "Update build number";
+		};
+		BC8B9A730D22EC7F00A11CB9 /* Distribution */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BC8B9A860D22ECE600A11CB9 /* Build configuration list for PBXAggregateTarget "Distribution" */;
+			buildPhases = (
+				BC8B9A720D22EC7F00A11CB9 /* ShellScript */,
+			);
+			dependencies = (
+				BC8B9A800D22ECC000A11CB9 /* PBXTargetDependency */,
+				BC8B9A820D22ECC400A11CB9 /* PBXTargetDependency */,
+			);
+			name = Distribution;
+			productName = Distribution;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BC024B17104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BC024B14104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.m */; };
+		BC024B18104ADB1F001A9488 /* NSString+WOCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC024B16104ADB1F001A9488 /* NSString+WOCreation.m */; };
+		BC0A12B90A3B1A6100B30B7A /* Synergy.app in Copy Files (Synergy.app) */ = {isa = PBXBuildFile; fileRef = BCBE2364093B34BD00FAD628 /* Synergy.app */; };
+		BC0B53930982BCD00033B1A7 /* MacOSX_Universal_60px.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC0B53920982BCD00033B1A7 /* MacOSX_Universal_60px.gif */; };
+		BC0B9D7D0FF409A7007AE543 /* OrgWincentSynergyPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F56E9BFD0394A55F010CA6FF /* OrgWincentSynergyPref.m */; };
+		BC0B9D7E0FF409A7007AE543 /* WOAudioscrobblerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3C8C410B00A89D0066E6D7 /* WOAudioscrobblerController.m */; };
+		BC0B9D7F0FF409A7007AE543 /* WOButtonCellWithTrackingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0670C045D1B8400A80001 /* WOButtonCellWithTrackingRect.m */; };
+		BC0B9D800FF409A7007AE543 /* WOButtonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5CC3270409B4E2001CCC4A /* WOButtonSet.m */; };
+		BC0B9D810FF409A7007AE543 /* WOButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = BC040E41041F3C180052CE41 /* WOButtonState.m */; };
+		BC0B9D820FF409A7007AE543 /* WOButtonWithTrackingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE8D3EA0420BEAA00A80001 /* WOButtonWithTrackingRect.m */; };
+		BC0B9D830FF409A7007AE543 /* WOControlButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = BC037D110430328600A80001 /* WOControlButtons.m */; };
+		BC0B9D840FF409A7007AE543 /* WODistributedNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F577917C0395498401EE990F /* WODistributedNotification.m */; };
+		BC0B9D860FF409A7007AE543 /* WOKeyCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC911C1403C31CBC000D6AD2 /* WOKeyCaptureView.m */; };
+		BC0B9D870FF409A7007AE543 /* WONSFileManagerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5D0AC4042FCFFE00A80001 /* WONSFileManagerExtensions.m */; };
+		BC0B9D880FF409A7007AE543 /* WONSScreenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC26C14C041C82F500A80001 /* WONSScreenExtensions.m */; };
+		BC0B9D890FF409A7007AE543 /* WOPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC066F0045BF68A00A80001 /* WOPopUpButton.m */; };
+		BC0B9D8A0FF409A7007AE543 /* WOPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F527717A039F7A0B013BBD0D /* WOPreferences.m */; };
+		BC0B9D8B0FF409A7007AE543 /* WOProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7E248103DB8FEE002EDF57 /* WOProcessManager.m */; };
+		BC0B9D8C0FF409A7007AE543 /* WORoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B627403D45F7D00B1B2E1 /* WORoundedRect.m */; };
+		BC0B9D8D0FF409A7007AE543 /* WOSynergyAnchorController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56F22403DC5A1800BD6ADA /* WOSynergyAnchorController.m */; };
+		BC0B9D8E0FF409A7007AE543 /* WOSynergyAnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56F21D03DC508200BD6ADA /* WOSynergyAnchorView.m */; };
+		BC0B9D8F0FF409A7007AE543 /* WOSynergyAnchorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56F21903DC506600BD6ADA /* WOSynergyAnchorWindow.m */; };
+		BC0B9D900FF409A7007AE543 /* WOSynergyFloaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B628003D4613B00B1B2E1 /* WOSynergyFloaterController.m */; };
+		BC0B9D910FF409A7007AE543 /* WOSynergyFloaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B627803D4602200B1B2E1 /* WOSynergyFloaterView.m */; };
+		BC0B9D920FF409A7007AE543 /* WOSynergyFloaterWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B627C03D460B300B1B2E1 /* WOSynergyFloaterWindow.m */; };
+		BC0B9D930FF409A7007AE543 /* WOSynergyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56702DD03A4BC7201842AA0 /* WOSynergyView.m */; };
+		BC0B9DD00FF40AC4007AE543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A2A5B0D14A1210080E56B /* main.m */; };
+		BC0B9DD10FF40AC4007AE543 /* NSDictionary+WOCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DBF0FF40A80007AE543 /* NSDictionary+WOCreation.m */; };
+		BC0B9DD20FF40AC4007AE543 /* NSMutableString+WOEditingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DA60FF40A1F007AE543 /* NSMutableString+WOEditingUtilities.m */; };
+		BC0B9DD30FF40AC4007AE543 /* NSString+WOCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DA80FF40A1F007AE543 /* NSString+WOCreation.m */; };
+		BC0B9DD40FF40AC4007AE543 /* NSString+WOFileUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DAA0FF40A1F007AE543 /* NSString+WOFileUtilities.m */; };
+		BC0B9DD50FF40AC4007AE543 /* WOLoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DB00FF40A3E007AE543 /* WOLoginItem.m */; };
+		BC0B9DD60FF40AC4007AE543 /* WOLoginItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DB20FF40A3E007AE543 /* WOLoginItemList.m */; };
+		BC0B9DD70FF40AC4007AE543 /* WOLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DAE0FF40A3E007AE543 /* WOLogManager.m */; };
+		BC0B9DD80FF40AC4007AE543 /* WOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B9DB40FF40A3E007AE543 /* WOObject.m */; };
+		BC0B9DD90FF40AC4007AE543 /* WOPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1567AB0D185F5C001991C5 /* WOPreferencePane.m */; };
+		BC0B9DDA0FF40AC4007AE543 /* WOPreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9885CE0D19226800B00823 /* WOPreferenceWindow.m */; };
+		BC0B9DDB0FF40AC4007AE543 /* WOSynergyPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9885F90D1927FF00B00823 /* WOSynergyPreferencesController.m */; };
+		BC0B9E270FF40C56007AE543 /* HotkeyCapableApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F54314790394BAF401AC36F3 /* HotkeyCapableApplication.m */; };
+		BC0B9E280FF40C56007AE543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F543148F0394BB0E01AC36F3 /* main.m */; };
+		BC0B9E290FF40C56007AE543 /* NSAppleScript+WOAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E7CC0A39F0EF0048ADFF /* NSAppleScript+WOAdditions.m */; };
+		BC0B9E2A0FF40C56007AE543 /* NSImage+WOAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E7570A39D8C60048ADFF /* NSImage+WOAdditions.m */; };
+		BC0B9E2B0FF40C56007AE543 /* NSString+WOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC17717B044386A900A80001 /* NSString+WOExtensions.m */; };
+		BC0B9E2C0FF40C56007AE543 /* NSTimer+WOPausable.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3C95FD0B0108A00066E6D7 /* NSTimer+WOPausable.m */; };
+		BC0B9E2D0FF40C56007AE543 /* SynergyController+WOAudioscrobbler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3C8B000AFF9FC50066E6D7 /* SynergyController+WOAudioscrobbler.m */; };
+		BC0B9E2E0FF40C56007AE543 /* SynergyController.m in Sources */ = {isa = PBXBuildFile; fileRef = F543147B0394BAF401AC36F3 /* SynergyController.m */; };
+		BC0B9E2F0FF40C56007AE543 /* WOAudioscrobbler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC617E000AF7CC9D00E1268F /* WOAudioscrobbler.m */; };
+		BC0B9E300FF40C56007AE543 /* WOAudioscrobblerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3C8C410B00A89D0066E6D7 /* WOAudioscrobblerController.m */; };
+		BC0B9E310FF40C56007AE543 /* WOButtonCellWithTrackingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0670C045D1B8400A80001 /* WOButtonCellWithTrackingRect.m */; };
+		BC0B9E320FF40C56007AE543 /* WOButtonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5CC3270409B4E2001CCC4A /* WOButtonSet.m */; };
+		BC0B9E330FF40C56007AE543 /* WOButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = BC040E41041F3C180052CE41 /* WOButtonState.m */; };
+		BC0B9E340FF40C56007AE543 /* WOButtonWithTrackingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE8D3EA0420BEAA00A80001 /* WOButtonWithTrackingRect.m */; };
+		BC0B9E350FF40C56007AE543 /* WOCarbonWrappers.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5BAB4F03C1B27100799024 /* WOCarbonWrappers.m */; };
+		BC0B9E360FF40C56007AE543 /* WOControlButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = BC037D110430328600A80001 /* WOControlButtons.m */; };
+		BC0B9E370FF40C56007AE543 /* WOCoverDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54286A040520370052F570 /* WOCoverDownloader.m */; };
+		BC0B9E380FF40C56007AE543 /* WODistributedNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F577917C0395498401EE990F /* WODistributedNotification.m */; };
+		BC0B9E390FF40C56007AE543 /* WOFeedbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC33E503E279CB00A59DD4 /* WOFeedbackController.m */; };
+		BC0B9E3A0FF40C56007AE543 /* WOFeedbackView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC33E103E2799000A59DD4 /* WOFeedbackView.m */; };
+		BC0B9E3B0FF40C56007AE543 /* WOFeedbackWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC33E903E279D900A59DD4 /* WOFeedbackWindow.m */; };
+		BC0B9E3D0FF40C56007AE543 /* WONSFileManagerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5D0AC4042FCFFE00A80001 /* WONSFileManagerExtensions.m */; };
+		BC0B9E3E0FF40C56007AE543 /* WONSScreenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC26C14C041C82F500A80001 /* WONSScreenExtensions.m */; };
+		BC0B9E3F0FF40C56007AE543 /* WONSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE4636003CAB6BF00CB9B3F /* WONSStringExtensions.m */; };
+		BC0B9E400FF40C56007AE543 /* WOPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC066F0045BF68A00A80001 /* WOPopUpButton.m */; };
+		BC0B9E410FF40C56007AE543 /* WOPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F527717A039F7A0B013BBD0D /* WOPreferences.m */; };
+		BC0B9E420FF40C56007AE543 /* WOProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7E248103DB8FEE002EDF57 /* WOProcessManager.m */; };
+		BC0B9E430FF40C56007AE543 /* WORoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B627403D45F7D00B1B2E1 /* WORoundedRect.m */; };
+		BC0B9E440FF40C56007AE543 /* WOSongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27E64B042DEF5300A80001 /* WOSongInfo.m */; };
+		BC0B9E450FF40C56007AE543 /* WOSynergyFloaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B628003D4613B00B1B2E1 /* WOSynergyFloaterController.m */; };
+		BC0B9E460FF40C56007AE543 /* WOSynergyFloaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B627803D4602200B1B2E1 /* WOSynergyFloaterView.m */; };
+		BC0B9E470FF40C56007AE543 /* WOSynergyFloaterWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7B627C03D460B300B1B2E1 /* WOSynergyFloaterWindow.m */; };
+		BC0B9E480FF40C56007AE543 /* WOSynergyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56702DD03A4BC7201842AA0 /* WOSynergyView.m */; };
+		BC0B9E490FF40C56007AE543 /* WOSysctl.c in Sources */ = {isa = PBXBuildFile; fileRef = BC08FB9E0404F1E00099965D /* WOSysctl.c */; };
+		BC3C8CB80B00B8B80066E6D7 /* audioscrobbler.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3C8CB20B00B8B80066E6D7 /* audioscrobbler.xib */; };
+		BC3C93470B00DCBF0066E6D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3C93120B00DCBE0066E6D7 /* Security.framework */; };
+		BC3C93480B00DCBF0066E6D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3C93120B00DCBE0066E6D7 /* Security.framework */; };
+		BC55A13B103AA1FF00B5AB83 /* NSDictionary+WOCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55A13A103AA1FF00B5AB83 /* NSDictionary+WOCreation.m */; };
+		BC55A1A6103ABA9000B5AB83 /* NSDictionary+WOCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55A1A5103ABA9000B5AB83 /* NSDictionary+WOCreation.m */; };
+		BC6A2A5A0D14A1000080E56B /* SynergyPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6A2A580D14A1000080E56B /* SynergyPreferences.xib */; };
+		BC6A2A650D14A18C0080E56B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CB1D7B0394B24501754549 /* Cocoa.framework */; };
+		BC8814840D193B7200D969B3 /* Synergy.prefPane in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCFE77750B0211FE005B3442 /* Synergy.prefPane */; };
+		BC8814EB0D19F5EB00D969B3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3C93120B00DCBE0066E6D7 /* Security.framework */; };
+		BC8815B20D1AAA9900D969B3 /* Synergy.icns in Resources */ = {isa = PBXBuildFile; fileRef = BC8815B10D1AAA9900D969B3 /* Synergy.icns */; };
+		BC8815D00D1AC7E100D969B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8815CE0D1AC7E100D969B3 /* InfoPlist.strings */; };
+		BC98EAC30A3A01060048ADFF /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC98EA9F0A3A01060048ADFF /* QuickTime.framework */; };
+		BCA18E830D33C991002092F0 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA18E820D33C991002092F0 /* ScriptingBridge.framework */; };
+		BCBE22AF093B34BD00FAD628 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58C12A803991E3601B0D373 /* InfoPlist.strings */; };
+		BCBE22B0093B34BD00FAD628 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58C12AA03991E3601B0D373 /* Localizable.strings */; };
+		BCBE22B1093B34BD00FAD628 /* OrgWincentSynergyPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58C12AC03991E3601B0D373 /* OrgWincentSynergyPref.xib */; };
+		BCBE22B2093B34BD00FAD628 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = F57E7B5303AD61D401A8AA3E /* defaults.plist */; };
+		BCBE22B3093B34BD00FAD628 /* synergyFloater.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7B628303D466F400B1B2E1 /* synergyFloater.xib */; };
+		BCBE22B4093B34BD00FAD628 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDC340703E41D2800A59DD4 /* pin.png */; };
+		BCBE22B5093B34BD00FAD628 /* SynergyPref.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDC340903E41D2800A59DD4 /* SynergyPref.png */; };
+		BCBE22B6093B34BD00FAD628 /* pin.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDC340D03E41DBA00A59DD4 /* pin.xib */; };
+		BCBE22B7093B34BD00FAD628 /* SynergyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDC340803E41D2800A59DD4 /* SynergyLarge.png */; };
+		BCBE22B8093B34BD00FAD628 /* Unicodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC689891046AC30F00A80001 /* Unicodes.plist */; };
+		BCBE22BA093B34BD00FAD628 /* about.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BCDF68270753B6A100EF20AF /* about.rtf */; };
+		BCBE22BB093B34BD00FAD628 /* NoCoverArt.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAC73AF07E5FE9300FDA956 /* NoCoverArt.png */; };
+		BCBE2314093B34BD00FAD628 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B86F61039931F1010F9052 /* InfoPlist.strings */; };
+		BCBE2315093B34BD00FAD628 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B86F63039931F1010F9052 /* Localizable.strings */; };
+		BCBE2316093B34BD00FAD628 /* synergyMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B86F65039931F1010F9052 /* synergyMain.xib */; };
+		BCBE2317093B34BD00FAD628 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = F57E7B5303AD61D401A8AA3E /* defaults.plist */; };
+		BCBE2318093B34BD00FAD628 /* synergyFloater.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7B628303D466F400B1B2E1 /* synergyFloater.xib */; };
+		BCBE2319093B34BD00FAD628 /* feedback.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDC33EC03E2BA3C00A59DD4 /* feedback.xib */; };
+		BCBE231A093B34BD00FAD628 /* volume.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDC33F003E2FFFA00A59DD4 /* volume.png */; };
+		BCBE231B093B34BD00FAD628 /* SynergyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDC33F703E419E800A59DD4 /* SynergyLarge.png */; };
+		BCBE231C093B34BD00FAD628 /* nextFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE15E9C03E421D5005E6BE2 /* nextFeedback.png */; };
+		BCBE231D093B34BD00FAD628 /* pauseFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE15E9D03E421D5005E6BE2 /* pauseFeedback.png */; };
+		BCBE231E093B34BD00FAD628 /* playFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE15E9E03E421D5005E6BE2 /* playFeedback.png */; };
+		BCBE231F093B34BD00FAD628 /* prevFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE15E9F03E421D5005E6BE2 /* prevFeedback.png */; };
+		BCBE2320093B34BD00FAD628 /* playPauseFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE15EA403E42BE9005E6BE2 /* playPauseFeedback.png */; };
+		BCBE2321093B34BD00FAD628 /* bars.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE15EA603E43204005E6BE2 /* bars.png */; };
+		BCBE2322093B34BD00FAD628 /* shuffleOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BC927305040BA1860099CFAC /* shuffleOff.png */; };
+		BCBE2323093B34BD00FAD628 /* shuffleOn.png in Resources */ = {isa = PBXBuildFile; fileRef = BC927306040BA1860099CFAC /* shuffleOn.png */; };
+		BCBE2324093B34BD00FAD628 /* repeatAll.png in Resources */ = {isa = PBXBuildFile; fileRef = BC927353040CE2330099CFAC /* repeatAll.png */; };
+		BCBE2325093B34BD00FAD628 /* repeatOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BC927354040CE2330099CFAC /* repeatOff.png */; };
+		BCBE2326093B34BD00FAD628 /* repeatOne.png in Resources */ = {isa = PBXBuildFile; fileRef = BC927355040CE2330099CFAC /* repeatOne.png */; };
+		BCBE2327093B34BD00FAD628 /* Synergy.icns in Resources */ = {isa = PBXBuildFile; fileRef = F54314930394BB6601AC36F3 /* Synergy.icns */; };
+		BCBE2328093B34BD00FAD628 /* musicGlyph.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC06705045CD73700A80001 /* musicGlyph.png */; };
+		BCBE2329093B34BD00FAD628 /* musicGlyphSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBB9316046FC5EB00A80001 /* musicGlyphSelected.png */; };
+		BCBE232A093B34BD00FAD628 /* Button Sets in Resources */ = {isa = PBXBuildFile; fileRef = BC3BD42406DE6FF5004768FD /* Button Sets */; };
+		BCBE232B093B34BD00FAD628 /* SynergyButtons.icns in Resources */ = {isa = PBXBuildFile; fileRef = BC3BD60306DE9F4E004768FD /* SynergyButtons.icns */; };
+		BCBE232C093B34BD00FAD628 /* NoCoverArt.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAC739107E5FDF800FDA956 /* NoCoverArt.png */; };
+		BCBE232E093B34BD00FAD628 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC680D640834C48F00ABF3B8 /* Growl.framework */; };
+		BCBE2354093B34BD00FAD628 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CB1D7A0394B24501754549 /* Carbon.framework */; };
+		BCBE2355093B34BD00FAD628 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CB1D7B0394B24501754549 /* Cocoa.framework */; };
+		BCBE2357093B34BD00FAD628 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBE04380426C12B00A80001 /* SystemConfiguration.framework */; };
+		BCBE2358093B34BD00FAD628 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC680D640834C48F00ABF3B8 /* Growl.framework */; };
+		BCCC011A0BB4377300A36444 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CB1D7B0394B24501754549 /* Cocoa.framework */; };
+		BCCC01200BB437EF00A36444 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CB1D7A0394B24501754549 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		BCBE22E8093B34BD00FAD628 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		BCBE2363093B34BD00FAD628 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.4_0;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1567BD0D18653E001991C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6A2A3D0D149F500080E56B;
+			remoteInfo = "Synergy Preferences";
+		};
+		BC1567C30D18656E001991C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6A2A3D0D149F500080E56B;
+			remoteInfo = "Synergy Preferences";
+		};
+		BC1567C50D186570001991C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCBE228A093B34BD00FAD628;
+			remoteInfo = SynergyPref;
+		};
+		BC8B9A7F0D22ECC000A11CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC881F3E0D1AD08C00D969B3;
+			remoteInfo = "Update build number";
+		};
+		BC8B9A810D22ECC400A11CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1567C00D186568001991C5;
+			remoteInfo = "Synergy Prefs + SynergyPref";
+		};
+		BCBE23A0093B34BD00FAD628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCBE22EA093B34BD00FAD628;
+			remoteInfo = "SynergyApp (Upgraded)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC1567BF0D186568001991C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "Synergy Preferences.app/Contents/PreferencePanes";
+			dstSubfolderSpec = 16;
+			files = (
+				BC8814840D193B7200D969B3 /* Synergy.prefPane in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE22DE093B34BD00FAD628 /* Copy Files (Synergy.app) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Helpers;
+			dstSubfolderSpec = 1;
+			files = (
+				BC0A12B90A3B1A6100B30B7A /* Synergy.app in Copy Files (Synergy.app) */,
+			);
+			name = "Copy Files (Synergy.app)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE232D093B34BD00FAD628 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BCBE232E093B34BD00FAD628 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		BC024B13104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+WOEditingUtilities.h"; path = "WOPublic/NSMutableString+WOEditingUtilities.h"; sourceTree = "<group>"; };
+		BC024B14104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+WOEditingUtilities.m"; path = "WOPublic/NSMutableString+WOEditingUtilities.m"; sourceTree = "<group>"; };
+		BC024B15104ADB1F001A9488 /* NSString+WOCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+WOCreation.h"; path = "WOPublic/NSString+WOCreation.h"; sourceTree = "<group>"; };
+		BC024B16104ADB1F001A9488 /* NSString+WOCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+WOCreation.m"; path = "WOPublic/NSString+WOCreation.m"; sourceTree = "<group>"; };
+		BC037D100430328600A80001 /* WOControlButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOControlButtons.h; path = SynergyCommon/Classes/WOControlButtons.h; sourceTree = "<group>"; };
+		BC037D110430328600A80001 /* WOControlButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOControlButtons.m; path = SynergyCommon/Classes/WOControlButtons.m; sourceTree = "<group>"; };
+		BC040E40041F3C180052CE41 /* WOButtonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOButtonState.h; path = SynergyApp/Classes/WOButtonState.h; sourceTree = "<group>"; };
+		BC040E41041F3C180052CE41 /* WOButtonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOButtonState.m; path = SynergyApp/Classes/WOButtonState.m; sourceTree = "<group>"; };
+		BC08FB9D0404F1E00099965D /* WOSysctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSysctl.h; path = "SynergyApp/Other Sources/WOSysctl.h"; sourceTree = "<group>"; };
+		BC08FB9E0404F1E00099965D /* WOSysctl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = WOSysctl.c; path = "SynergyApp/Other Sources/WOSysctl.c"; sourceTree = "<group>"; };
+		BC0AE4E30406480B00248FD8 /* playPauseImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playPauseImage.png; path = SynergyApp/Resources/playPauseImage.png; sourceTree = "<group>"; };
+		BC0B53920982BCD00033B1A7 /* MacOSX_Universal_60px.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = MacOSX_Universal_60px.gif; path = SynergyPref/Resources/MacOSX_Universal_60px.gif; sourceTree = "<group>"; };
+		BC0B61BA03C9D2580035855F /* WOCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOCommon.h; path = SynergyCommon/Classes/WOCommon.h; sourceTree = "<group>"; };
+		BC0B9CF20FF401C6007AE543 /* release-style.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "release-style.xcconfig"; path = "buildtools/release-style.xcconfig"; sourceTree = "<group>"; };
+		BC0B9CF30FF401C6007AE543 /* debug-style.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "debug-style.xcconfig"; path = "buildtools/debug-style.xcconfig"; sourceTree = "<group>"; };
+		BC0B9CF40FF401C6007AE543 /* pref-pane-target.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "pref-pane-target.xcconfig"; path = "buildtools/pref-pane-target.xcconfig"; sourceTree = "<group>"; };
+		BC0B9CF50FF401C6007AE543 /* cocoa-app-target.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "cocoa-app-target.xcconfig"; path = "buildtools/cocoa-app-target.xcconfig"; sourceTree = "<group>"; };
+		BC0B9CF60FF401C6007AE543 /* base-style.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "base-style.xcconfig"; path = "buildtools/base-style.xcconfig"; sourceTree = "<group>"; };
+		BC0B9D560FF40845007AE543 /* WOPublic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WOPublic; sourceTree = "<group>"; };
+		BC0B9D640FF408A5007AE543 /* WOConvenienceMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOConvenienceMacros.h; path = WOPublic/WOConvenienceMacros.h; sourceTree = "<group>"; };
+		BC0B9DA50FF40A1F007AE543 /* NSMutableString+WOEditingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+WOEditingUtilities.h"; path = "WOPublic/NSMutableString+WOEditingUtilities.h"; sourceTree = "<group>"; };
+		BC0B9DA60FF40A1F007AE543 /* NSMutableString+WOEditingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+WOEditingUtilities.m"; path = "WOPublic/NSMutableString+WOEditingUtilities.m"; sourceTree = "<group>"; };
+		BC0B9DA70FF40A1F007AE543 /* NSString+WOCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+WOCreation.h"; path = "WOPublic/NSString+WOCreation.h"; sourceTree = "<group>"; };
+		BC0B9DA80FF40A1F007AE543 /* NSString+WOCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+WOCreation.m"; path = "WOPublic/NSString+WOCreation.m"; sourceTree = "<group>"; };
+		BC0B9DA90FF40A1F007AE543 /* NSString+WOFileUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+WOFileUtilities.h"; path = "WOPublic/NSString+WOFileUtilities.h"; sourceTree = "<group>"; };
+		BC0B9DAA0FF40A1F007AE543 /* NSString+WOFileUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+WOFileUtilities.m"; path = "WOPublic/NSString+WOFileUtilities.m"; sourceTree = "<group>"; };
+		BC0B9DAD0FF40A3E007AE543 /* WOLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOLogManager.h; path = WOPublic/WOLogManager.h; sourceTree = "<group>"; };
+		BC0B9DAE0FF40A3E007AE543 /* WOLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOLogManager.m; path = WOPublic/WOLogManager.m; sourceTree = "<group>"; };
+		BC0B9DAF0FF40A3E007AE543 /* WOLoginItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOLoginItem.h; path = WOPublic/WOLoginItem.h; sourceTree = "<group>"; };
+		BC0B9DB00FF40A3E007AE543 /* WOLoginItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOLoginItem.m; path = WOPublic/WOLoginItem.m; sourceTree = "<group>"; };
+		BC0B9DB10FF40A3E007AE543 /* WOLoginItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOLoginItemList.h; path = WOPublic/WOLoginItemList.h; sourceTree = "<group>"; };
+		BC0B9DB20FF40A3E007AE543 /* WOLoginItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOLoginItemList.m; path = WOPublic/WOLoginItemList.m; sourceTree = "<group>"; };
+		BC0B9DB30FF40A3E007AE543 /* WOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOObject.h; path = WOPublic/WOObject.h; sourceTree = "<group>"; };
+		BC0B9DB40FF40A3E007AE543 /* WOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOObject.m; path = WOPublic/WOObject.m; sourceTree = "<group>"; };
+		BC0B9DBE0FF40A80007AE543 /* NSDictionary+WOCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WOCreation.h"; path = "WOPublic/NSDictionary+WOCreation.h"; sourceTree = "<group>"; };
+		BC0B9DBF0FF40A80007AE543 /* NSDictionary+WOCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WOCreation.m"; path = "WOPublic/NSDictionary+WOCreation.m"; sourceTree = "<group>"; };
+		BC0B9DC00FF40A8A007AE543 /* WOConvenienceMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOConvenienceMacros.h; path = WOPublic/WOConvenienceMacros.h; sourceTree = "<group>"; };
+		BC0B9DC10FF40A8A007AE543 /* WODebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WODebugMacros.h; path = WOPublic/WODebugMacros.h; sourceTree = "<group>"; };
+		BC0B9DC20FF40A8A007AE543 /* WOMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOMemory.h; path = WOPublic/WOMemory.h; sourceTree = "<group>"; };
+		BC0B9DC30FF40A8A007AE543 /* WOMemoryBarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOMemoryBarrier.h; path = WOPublic/WOMemoryBarrier.h; sourceTree = "<group>"; };
+		BC1567AA0D185F5C001991C5 /* WOPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOPreferencePane.h; path = SynergyPreferences/WOPreferencePane.h; sourceTree = "<group>"; };
+		BC1567AB0D185F5C001991C5 /* WOPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOPreferencePane.m; path = SynergyPreferences/WOPreferencePane.m; sourceTree = "<group>"; };
+		BC17717A044386A900A80001 /* NSString+WOExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+WOExtensions.h"; path = "SynergyCommon/Classes/NSString+WOExtensions.h"; sourceTree = "<group>"; };
+		BC17717B044386A900A80001 /* NSString+WOExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+WOExtensions.m"; path = "SynergyCommon/Classes/NSString+WOExtensions.m"; sourceTree = "<group>"; };
+		BC26C14B041C82F500A80001 /* WONSScreenExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WONSScreenExtensions.h; path = SynergyCommon/Classes/WONSScreenExtensions.h; sourceTree = "<group>"; };
+		BC26C14C041C82F500A80001 /* WONSScreenExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WONSScreenExtensions.m; path = SynergyCommon/Classes/WONSScreenExtensions.m; sourceTree = "<group>"; };
+		BC27E64A042DEF5300A80001 /* WOSongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSongInfo.h; path = SynergyApp/Classes/WOSongInfo.h; sourceTree = "<group>"; };
+		BC27E64B042DEF5300A80001 /* WOSongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSongInfo.m; path = SynergyApp/Classes/WOSongInfo.m; sourceTree = "<group>"; };
+		BC2A3E7A10F205270051E3BF /* WOConvenienceMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOConvenienceMacros.h; path = WOPublic/WOConvenienceMacros.h; sourceTree = "<group>"; };
+		BC2B328804574EF800A80001 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = SynergyApp/Resources/French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC2B328A0457FF1F00A80001 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = SynergyPref/Resources/French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC2C26AA0482824B00A80001 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Dutch; path = SynergyPref/Resources/Dutch.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BC2C26AB0482825B00A80001 /* Dutch */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Dutch; path = SynergyPref/Resources/Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC2D22EB072E9D6D007E3CBD /* Norwegian */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Norwegian; path = SynergyPref/Resources/Norwegian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC30616403FA8FDD007C4E56 /* WOSynergyGlobal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WOSynergyGlobal.h; path = SynergyCommon/Classes/WOSynergyGlobal.h; sourceTree = "<group>"; };
+		BC3BD42406DE6FF5004768FD /* Button Sets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Button Sets"; path = "SynergyApp/Resources/Button Sets"; sourceTree = "<group>"; };
+		BC3BD60306DE9F4E004768FD /* SynergyButtons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SynergyButtons.icns; path = SynergyApp/Resources/SynergyButtons.icns; sourceTree = "<group>"; };
+		BC3C3168080C9E8D00DF9C20 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = SynergyApp/Resources/zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3C3169080C9E8D00DF9C20 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = SynergyApp/Resources/zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC3C3172080C9ECD00DF9C20 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = zh_CN; path = SynergyPref/Resources/zh_CN.lproj/about.rtf; sourceTree = "<group>"; };
+		BC3C3173080C9ECD00DF9C20 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = SynergyPref/Resources/zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3C3174080C9ECD00DF9C20 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = SynergyPref/Resources/zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC3C3177080C9ED500DF9C20 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = zh_CN; path = SynergyPref/Resources/zh_CN.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BC3C8AFF0AFF9FC50066E6D7 /* SynergyController+WOAudioscrobbler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SynergyController+WOAudioscrobbler.h"; path = "SynergyApp/Classes/SynergyController+WOAudioscrobbler.h"; sourceTree = "<group>"; };
+		BC3C8B000AFF9FC50066E6D7 /* SynergyController+WOAudioscrobbler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SynergyController+WOAudioscrobbler.m"; path = "SynergyApp/Classes/SynergyController+WOAudioscrobbler.m"; sourceTree = "<group>"; };
+		BC3C8C400B00A89D0066E6D7 /* WOAudioscrobblerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOAudioscrobblerController.h; path = SynergyPref/Classes/WOAudioscrobblerController.h; sourceTree = "<group>"; };
+		BC3C8C410B00A89D0066E6D7 /* WOAudioscrobblerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOAudioscrobblerController.m; path = SynergyPref/Classes/WOAudioscrobblerController.m; sourceTree = "<group>"; };
+		BC3C93120B00DCBE0066E6D7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		BC3C95FC0B0108A00066E6D7 /* NSTimer+WOPausable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimer+WOPausable.h"; path = "SynergyApp/Categories/NSTimer+WOPausable.h"; sourceTree = "<group>"; };
+		BC3C95FD0B0108A00066E6D7 /* NSTimer+WOPausable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+WOPausable.m"; path = "SynergyApp/Categories/NSTimer+WOPausable.m"; sourceTree = "<group>"; };
+		BC5346D70D200ED600D8D287 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = SynergyApp/Resources/German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346D80D200ED600D8D287 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = SynergyApp/Resources/pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346D90D200ED600D8D287 /* Norwegian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Norwegian; path = SynergyApp/Resources/Norwegian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346DA0D200ED600D8D287 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = SynergyApp/Resources/tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346DB0D200ED600D8D287 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = SynergyApp/Resources/French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346DC0D200ED600D8D287 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = SynergyApp/Resources/Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346E00D200F2F00D8D287 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = SynergyPref/Resources/pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346E10D200F2F00D8D287 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = SynergyPref/Resources/tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC5346F70D200F7100D8D287 /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Swedish; path = SynergyApp/Resources/Swedish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC542869040520370052F570 /* WOCoverDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOCoverDownloader.h; path = SynergyApp/Classes/WOCoverDownloader.h; sourceTree = "<group>"; };
+		BC54286A040520370052F570 /* WOCoverDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOCoverDownloader.m; path = SynergyApp/Classes/WOCoverDownloader.m; sourceTree = "<group>"; };
+		BC55A138103AA1C300B5AB83 /* WOConvenienceMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOConvenienceMacros.h; path = WOPublic/WOConvenienceMacros.h; sourceTree = "<group>"; };
+		BC55A139103AA1FF00B5AB83 /* NSDictionary+WOCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WOCreation.h"; path = "WOPublic/NSDictionary+WOCreation.h"; sourceTree = "<group>"; };
+		BC55A13A103AA1FF00B5AB83 /* NSDictionary+WOCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WOCreation.m"; path = "WOPublic/NSDictionary+WOCreation.m"; sourceTree = "<group>"; };
+		BC55A1A4103ABA9000B5AB83 /* NSDictionary+WOCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WOCreation.h"; path = "WOPublic/NSDictionary+WOCreation.h"; sourceTree = "<group>"; };
+		BC55A1A5103ABA9000B5AB83 /* NSDictionary+WOCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WOCreation.m"; path = "WOPublic/NSDictionary+WOCreation.m"; sourceTree = "<group>"; };
+		BC56F21803DC506600BD6ADA /* WOSynergyAnchorWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyAnchorWindow.h; path = SynergyPref/Classes/WOSynergyAnchorWindow.h; sourceTree = "<group>"; };
+		BC56F21903DC506600BD6ADA /* WOSynergyAnchorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyAnchorWindow.m; path = SynergyPref/Classes/WOSynergyAnchorWindow.m; sourceTree = "<group>"; };
+		BC56F21C03DC508200BD6ADA /* WOSynergyAnchorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyAnchorView.h; path = SynergyPref/Classes/WOSynergyAnchorView.h; sourceTree = "<group>"; };
+		BC56F21D03DC508200BD6ADA /* WOSynergyAnchorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyAnchorView.m; path = SynergyPref/Classes/WOSynergyAnchorView.m; sourceTree = "<group>"; };
+		BC56F22303DC5A1800BD6ADA /* WOSynergyAnchorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyAnchorController.h; path = SynergyPref/Classes/WOSynergyAnchorController.h; sourceTree = "<group>"; };
+		BC56F22403DC5A1800BD6ADA /* WOSynergyAnchorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyAnchorController.m; path = SynergyPref/Classes/WOSynergyAnchorController.m; sourceTree = "<group>"; };
+		BC588013046F9F6F00A80001 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = SynergyPref/Resources/German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC588014046F9F8B00A80001 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = SynergyPref/Resources/German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC588016046F9F9C00A80001 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = German; path = SynergyPref/Resources/German.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BC588017046FA03100A80001 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = SynergyApp/Resources/German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC5BAB4E03C1B27100799024 /* WOCarbonWrappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOCarbonWrappers.h; path = SynergyCommon/Classes/WOCarbonWrappers.h; sourceTree = "<group>"; };
+		BC5BAB4F03C1B27100799024 /* WOCarbonWrappers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOCarbonWrappers.m; path = SynergyCommon/Classes/WOCarbonWrappers.m; sourceTree = "<group>"; };
+		BC5CC3260409B4E2001CCC4A /* WOButtonSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOButtonSet.h; path = SynergyCommon/Classes/WOButtonSet.h; sourceTree = "<group>"; };
+		BC5CC3270409B4E2001CCC4A /* WOButtonSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOButtonSet.m; path = SynergyCommon/Classes/WOButtonSet.m; sourceTree = "<group>"; };
+		BC5D0AC3042FCFFE00A80001 /* WONSFileManagerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WONSFileManagerExtensions.h; path = SynergyApp/Classes/WONSFileManagerExtensions.h; sourceTree = "<group>"; };
+		BC5D0AC4042FCFFE00A80001 /* WONSFileManagerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WONSFileManagerExtensions.m; path = SynergyApp/Classes/WONSFileManagerExtensions.m; sourceTree = "<group>"; };
+		BC5D0AC7042FDFFF00A80001 /* WOExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOExceptions.h; path = SynergyCommon/Classes/WOExceptions.h; sourceTree = "<group>"; };
+		BC5D0AD8042FE8A300A80001 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		BC617DFF0AF7CC9D00E1268F /* WOAudioscrobbler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOAudioscrobbler.h; path = SynergyApp/Classes/WOAudioscrobbler.h; sourceTree = "<group>"; };
+		BC617E000AF7CC9D00E1268F /* WOAudioscrobbler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOAudioscrobbler.m; path = SynergyApp/Classes/WOAudioscrobbler.m; sourceTree = "<group>"; };
+		BC680D640834C48F00ABF3B8 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = SynergyApp/Growl.framework; sourceTree = "<group>"; };
+		BC68988904691BF000A80001 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = SynergyPref/Resources/Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC68988B04691C0700A80001 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = SynergyApp/Resources/Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC689895046AC32100A80001 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = French; path = SynergyPref/Resources/French.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BC689896046AC32E00A80001 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Spanish; path = SynergyPref/Resources/Spanish.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BC689898046BE0FC00A80001 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = SynergyPref/Resources/Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC6A2A3E0D149F500080E56B /* Synergy Preferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Synergy Preferences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A2A400D149F500080E56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SynergyPreferences/Info.plist; sourceTree = "<group>"; };
+		BC6A2A590D14A1000080E56B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SynergyPreferences/en.lproj/SynergyPreferences.xib; sourceTree = "<group>"; };
+		BC6A2A5B0D14A1210080E56B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SynergyPreferences/main.m; sourceTree = "<group>"; };
+		BC7566750D1EFF49005AD9F2 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = SynergyPref/Resources/zh_TW.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC7566760D1EFF49005AD9F2 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = SynergyPref/Resources/zh_CN.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC7566770D1EFF49005AD9F2 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = SynergyPref/Resources/tr.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC7566780D1EFF49005AD9F2 /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Swedish; path = SynergyPref/Resources/Swedish.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC7566790D1EFF49005AD9F2 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Spanish; path = SynergyPref/Resources/Spanish.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC75667A0D1EFF49005AD9F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = SynergyPref/Resources/ru.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC75667B0D1EFF49005AD9F2 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = SynergyPref/Resources/pt.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC75667C0D1EFF49005AD9F2 /* Norwegian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Norwegian; path = SynergyPref/Resources/Norwegian.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC75667D0D1EFF49005AD9F2 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = SynergyPref/Resources/Japanese.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC75667E0D1EFF49005AD9F2 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = SynergyPref/Resources/it.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC75667F0D1EFF49005AD9F2 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = SynergyPref/Resources/German.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC7566800D1EFF49005AD9F2 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = SynergyPref/Resources/French.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC7566810D1EFF49005AD9F2 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Dutch; path = SynergyPref/Resources/Dutch.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC78E3ED103738FE0087DA74 /* tag-release.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "tag-release.sh"; sourceTree = "<group>"; };
+		BC7B627303D45F7D00B1B2E1 /* WORoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WORoundedRect.h; path = SynergyCommon/Classes/WORoundedRect.h; sourceTree = "<group>"; };
+		BC7B627403D45F7D00B1B2E1 /* WORoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WORoundedRect.m; path = SynergyCommon/Classes/WORoundedRect.m; sourceTree = "<group>"; };
+		BC7B627703D4602200B1B2E1 /* WOSynergyFloaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyFloaterView.h; path = SynergyApp/Classes/WOSynergyFloaterView.h; sourceTree = "<group>"; };
+		BC7B627803D4602200B1B2E1 /* WOSynergyFloaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyFloaterView.m; path = SynergyApp/Classes/WOSynergyFloaterView.m; sourceTree = "<group>"; };
+		BC7B627B03D460B300B1B2E1 /* WOSynergyFloaterWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyFloaterWindow.h; path = SynergyApp/Classes/WOSynergyFloaterWindow.h; sourceTree = "<group>"; };
+		BC7B627C03D460B300B1B2E1 /* WOSynergyFloaterWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyFloaterWindow.m; path = SynergyApp/Classes/WOSynergyFloaterWindow.m; sourceTree = "<group>"; };
+		BC7B627F03D4613B00B1B2E1 /* WOSynergyFloaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyFloaterController.h; path = SynergyApp/Classes/WOSynergyFloaterController.h; sourceTree = "<group>"; };
+		BC7B628003D4613B00B1B2E1 /* WOSynergyFloaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyFloaterController.m; path = SynergyApp/Classes/WOSynergyFloaterController.m; sourceTree = "<group>"; };
+		BC7B628303D466F400B1B2E1 /* synergyFloater.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = synergyFloater.xib; path = SynergyApp/Resources/synergyFloater.xib; sourceTree = "<group>"; };
+		BC7E248003DB8FEE002EDF57 /* WOProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOProcessManager.h; path = SynergyApp/Classes/WOProcessManager.h; sourceTree = "<group>"; };
+		BC7E248103DB8FEE002EDF57 /* WOProcessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOProcessManager.m; path = SynergyApp/Classes/WOProcessManager.m; sourceTree = "<group>"; };
+		BC8815B10D1AAA9900D969B3 /* Synergy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Synergy.icns; path = SynergyPreferences/Synergy.icns; sourceTree = "<group>"; };
+		BC8815CF0D1AC7E100D969B3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = SynergyPreferences/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC88161D0D1ACA5D00D969B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = SynergyPreferences/es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC88175D0D1ACB2700D969B3 /* WOSynergy_Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOSynergy_Version.h; sourceTree = "<group>"; };
+		BC881F850D1AFE9300D969B3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = SynergyApp/Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC881F860D1AFE9300D969B3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = SynergyApp/Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC881F870D1AFE9300D969B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SynergyApp/Resources/en.lproj/synergyMain.xib; sourceTree = "<group>"; };
+		BC881F910D1AFEF100D969B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SynergyPref/Resources/en.lproj/OrgWincentSynergyPref.xib; sourceTree = "<group>"; };
+		BC881F920D1AFEF100D969B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = SynergyPref/Resources/en.lproj/about.rtf; sourceTree = "<group>"; };
+		BC881F930D1AFEF100D969B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SynergyPref/Resources/en.lproj/audioscrobbler.xib; sourceTree = "<group>"; };
+		BC881F940D1AFEF100D969B3 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = en; path = SynergyPref/Resources/en.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BC881F950D1AFEF100D969B3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = SynergyPref/Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC881F960D1AFEF100D969B3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = SynergyPref/Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC8B9BB00D23111400A11CB9 /* distro.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = distro.sh; sourceTree = "<group>"; };
+		BC8BE0B4127DBC9400B6B534 /* sign.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = sign.sh; sourceTree = "<group>"; };
+		BC911C1303C31CBC000D6AD2 /* WOKeyCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOKeyCaptureView.h; path = SynergyPref/Classes/WOKeyCaptureView.h; sourceTree = "<group>"; };
+		BC911C1403C31CBC000D6AD2 /* WOKeyCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOKeyCaptureView.m; path = SynergyPref/Classes/WOKeyCaptureView.m; sourceTree = "<group>"; };
+		BC927305040BA1860099CFAC /* shuffleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuffleOff.png; path = SynergyApp/Resources/shuffleOff.png; sourceTree = "<group>"; };
+		BC927306040BA1860099CFAC /* shuffleOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuffleOn.png; path = SynergyApp/Resources/shuffleOn.png; sourceTree = "<group>"; };
+		BC927353040CE2330099CFAC /* repeatAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatAll.png; path = SynergyApp/Resources/repeatAll.png; sourceTree = "<group>"; };
+		BC927354040CE2330099CFAC /* repeatOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatOff.png; path = SynergyApp/Resources/repeatOff.png; sourceTree = "<group>"; };
+		BC927355040CE2330099CFAC /* repeatOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatOne.png; path = SynergyApp/Resources/repeatOne.png; sourceTree = "<group>"; };
+		BC9885CD0D19226800B00823 /* WOPreferenceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOPreferenceWindow.h; path = SynergyPreferences/WOPreferenceWindow.h; sourceTree = "<group>"; };
+		BC9885CE0D19226800B00823 /* WOPreferenceWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOPreferenceWindow.m; path = SynergyPreferences/WOPreferenceWindow.m; sourceTree = "<group>"; };
+		BC9885F80D1927FF00B00823 /* WOSynergyPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOSynergyPreferencesController.h; path = SynergyPreferences/WOSynergyPreferencesController.h; sourceTree = "<group>"; };
+		BC9885F90D1927FF00B00823 /* WOSynergyPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOSynergyPreferencesController.m; path = SynergyPreferences/WOSynergyPreferencesController.m; sourceTree = "<group>"; };
+		BC98E7560A39D8C60048ADFF /* NSImage+WOAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+WOAdditions.h"; path = "SynergyApp/Categories/NSImage+WOAdditions.h"; sourceTree = "<group>"; };
+		BC98E7570A39D8C60048ADFF /* NSImage+WOAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WOAdditions.m"; path = "SynergyApp/Categories/NSImage+WOAdditions.m"; sourceTree = "<group>"; };
+		BC98E7CB0A39F0EF0048ADFF /* NSAppleScript+WOAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAppleScript+WOAdditions.h"; path = "SynergyApp/Categories/NSAppleScript+WOAdditions.h"; sourceTree = "<group>"; };
+		BC98E7CC0A39F0EF0048ADFF /* NSAppleScript+WOAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAppleScript+WOAdditions.m"; path = "SynergyApp/Categories/NSAppleScript+WOAdditions.m"; sourceTree = "<group>"; };
+		BC98EA9F0A3A01060048ADFF /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		BCA18E820D33C991002092F0 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
+		BCA18E860D33C9B1002092F0 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		BCA7F4A3048379BC00A80001 /* Swedish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Swedish; path = SynergyPref/Resources/Swedish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA7F4A404837A0C00A80001 /* Dutch */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Dutch; path = SynergyPref/Resources/Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA7F4A504837A4100A80001 /* Swedish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Swedish; path = SynergyPref/Resources/Swedish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCA7F4A704837A9300A80001 /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Swedish; path = SynergyPref/Resources/Swedish.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BCA7F4A804837B7300A80001 /* Swedish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Swedish; path = SynergyApp/Resources/Swedish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCAC739107E5FDF800FDA956 /* NoCoverArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoCoverArt.png; path = SynergyApp/Resources/NoCoverArt.png; sourceTree = "<group>"; };
+		BCAC73AF07E5FE9300FDA956 /* NoCoverArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoCoverArt.png; path = SynergyPref/Resources/NoCoverArt.png; sourceTree = "<group>"; };
+		BCB0BD8A0682231300FFC46C /* Norwegian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Norwegian; path = SynergyPref/Resources/Norwegian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCB5C0E107D7DF4A00D08CA9 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = tr; path = SynergyPref/Resources/tr.lproj/about.rtf; sourceTree = "<group>"; };
+		BCB5C0F107D7DF5900D08CA9 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = SynergyPref/Resources/tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCB5C0F807D7DF7B00D08CA9 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = SynergyApp/Resources/tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCBB9316046FC5EB00A80001 /* musicGlyphSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = musicGlyphSelected.png; path = SynergyApp/Resources/musicGlyphSelected.png; sourceTree = "<group>"; };
+		BCBB9A360470726C00A80001 /* Dutch */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Dutch; path = SynergyApp/Resources/Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCBB9A370470727600A80001 /* Dutch */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Dutch; path = SynergyApp/Resources/Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCBE04380426C12B00A80001 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		BCBE22E5093B34BD00FAD628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SynergyPref/Info.plist; sourceTree = "<group>"; };
+		BCBE2360093B34BD00FAD628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SynergyApp/Info.plist; sourceTree = "<group>"; };
+		BCBE2364093B34BD00FAD628 /* Synergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Synergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC066EF045BF68A00A80001 /* WOPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOPopUpButton.h; path = SynergyApp/Classes/WOPopUpButton.h; sourceTree = "<group>"; };
+		BCC066F0045BF68A00A80001 /* WOPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOPopUpButton.m; path = SynergyApp/Classes/WOPopUpButton.m; sourceTree = "<group>"; };
+		BCC06705045CD73700A80001 /* musicGlyph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = musicGlyph.png; path = SynergyApp/Resources/musicGlyph.png; sourceTree = "<group>"; };
+		BCC06707045CF19700A80001 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = SynergyPref/Resources/French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCC06709045D179D00A80001 /* WOButtonCellWithTrackingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOButtonCellWithTrackingRect.h; path = SynergyApp/Classes/WOButtonCellWithTrackingRect.h; sourceTree = "<group>"; };
+		BCC0670C045D1B8400A80001 /* WOButtonCellWithTrackingRect.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WOButtonCellWithTrackingRect.m; path = SynergyApp/Classes/WOButtonCellWithTrackingRect.m; sourceTree = "<group>"; };
+		BCC2DD090445BC6B00A80001 /* WOSynergyFloater.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WOSynergyFloater.h; path = SynergyApp/Classes/WOSynergyFloater.h; sourceTree = "<group>"; };
+		BCD1967F0D3258D400D324C3 /* Norwegian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Norwegian; path = SynergyApp/Resources/Norwegian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCD86C680766964800FAA179 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = SynergyApp/Resources/pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCD86C87076696EA00FAA179 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = SynergyPref/Resources/pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCD86CA507669B3600FAA179 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_TW; path = SynergyApp/Resources/zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD86CA607669B3600FAA179 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = SynergyApp/Resources/zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCD8710B07669C4A00FAA179 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_TW; path = SynergyPref/Resources/zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD8710C07669C4A00FAA179 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = SynergyPref/Resources/zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCD8710E07669C4A00FAA179 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = zh_TW; path = SynergyPref/Resources/zh_TW.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BCD8711207669C8900FAA179 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = zh_TW; path = SynergyPref/Resources/zh_TW.lproj/about.rtf; sourceTree = "<group>"; };
+		BCD8712707669D4300FAA179 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = it; path = SynergyPref/Resources/it.lproj/about.rtf; sourceTree = "<group>"; };
+		BCD8712807669D4300FAA179 /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = SynergyPref/Resources/it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD8712907669D4300FAA179 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = SynergyPref/Resources/it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCD8712B07669D4300FAA179 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = it; path = SynergyPref/Resources/it.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BCD8714007669DC400FAA179 /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = SynergyApp/Resources/it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD8714107669DC400FAA179 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = SynergyApp/Resources/it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCDC33E003E2799000A59DD4 /* WOFeedbackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOFeedbackView.h; path = SynergyApp/Classes/WOFeedbackView.h; sourceTree = "<group>"; };
+		BCDC33E103E2799000A59DD4 /* WOFeedbackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOFeedbackView.m; path = SynergyApp/Classes/WOFeedbackView.m; sourceTree = "<group>"; };
+		BCDC33E403E279CB00A59DD4 /* WOFeedbackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOFeedbackController.h; path = SynergyApp/Classes/WOFeedbackController.h; sourceTree = "<group>"; };
+		BCDC33E503E279CB00A59DD4 /* WOFeedbackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOFeedbackController.m; path = SynergyApp/Classes/WOFeedbackController.m; sourceTree = "<group>"; };
+		BCDC33E803E279D900A59DD4 /* WOFeedbackWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOFeedbackWindow.h; path = SynergyApp/Classes/WOFeedbackWindow.h; sourceTree = "<group>"; };
+		BCDC33E903E279D900A59DD4 /* WOFeedbackWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOFeedbackWindow.m; path = SynergyApp/Classes/WOFeedbackWindow.m; sourceTree = "<group>"; };
+		BCDC33EC03E2BA3C00A59DD4 /* feedback.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = feedback.xib; path = SynergyApp/Resources/feedback.xib; sourceTree = "<group>"; };
+		BCDC33F003E2FFFA00A59DD4 /* volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volume.png; path = SynergyApp/Resources/volume.png; sourceTree = "<group>"; };
+		BCDC33F203E419E800A59DD4 /* nextImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextImage.png; path = SynergyApp/Resources/nextImage.png; sourceTree = "<group>"; };
+		BCDC33F303E419E800A59DD4 /* pauseImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pauseImage.png; path = SynergyApp/Resources/pauseImage.png; sourceTree = "<group>"; };
+		BCDC33F403E419E800A59DD4 /* playImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playImage.png; path = SynergyApp/Resources/playImage.png; sourceTree = "<group>"; };
+		BCDC33F503E419E800A59DD4 /* prevImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prevImage.png; path = SynergyApp/Resources/prevImage.png; sourceTree = "<group>"; };
+		BCDC33F603E419E800A59DD4 /* stopImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopImage.png; path = SynergyApp/Resources/stopImage.png; sourceTree = "<group>"; };
+		BCDC33F703E419E800A59DD4 /* SynergyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SynergyLarge.png; path = SynergyApp/Resources/SynergyLarge.png; sourceTree = "<group>"; };
+		BCDC340103E41B8B00A59DD4 /* nextImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextImage.png; path = SynergyPref/Resources/nextImage.png; sourceTree = "<group>"; };
+		BCDC340203E41B8B00A59DD4 /* playImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playImage.png; path = SynergyPref/Resources/playImage.png; sourceTree = "<group>"; };
+		BCDC340303E41B8B00A59DD4 /* prevImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prevImage.png; path = SynergyPref/Resources/prevImage.png; sourceTree = "<group>"; };
+		BCDC340703E41D2800A59DD4 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = SynergyPref/Resources/pin.png; sourceTree = "<group>"; };
+		BCDC340803E41D2800A59DD4 /* SynergyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SynergyLarge.png; path = SynergyPref/Resources/SynergyLarge.png; sourceTree = "<group>"; };
+		BCDC340903E41D2800A59DD4 /* SynergyPref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SynergyPref.png; path = SynergyPref/Resources/SynergyPref.png; sourceTree = "<group>"; };
+		BCDC340D03E41DBA00A59DD4 /* pin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pin.xib; path = SynergyPref/Resources/pin.xib; sourceTree = "<group>"; };
+		BCDF68280753B6A100EF20AF /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Japanese; path = SynergyPref/Resources/Japanese.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF68290753B6A100EF20AF /* French */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = French; path = SynergyPref/Resources/French.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF682A0753B6A100EF20AF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ru; path = SynergyPref/Resources/ru.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF682B0753B6A100EF20AF /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Swedish; path = SynergyPref/Resources/Swedish.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF682C0753B6A100EF20AF /* Norwegian */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Norwegian; path = SynergyPref/Resources/Norwegian.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF682E0753B6A100EF20AF /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Dutch; path = SynergyPref/Resources/Dutch.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF682F0753B6A100EF20AF /* German */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = German; path = SynergyPref/Resources/German.lproj/about.rtf; sourceTree = "<group>"; };
+		BCDF68300753B6A100EF20AF /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Spanish; path = SynergyPref/Resources/Spanish.lproj/about.rtf; sourceTree = "<group>"; };
+		BCE03A5A061ACC1A00238E7E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = ru; path = SynergyPref/Resources/ru.lproj/Unicodes.plist; sourceTree = "<group>"; };
+		BCE15E9C03E421D5005E6BE2 /* nextFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextFeedback.png; path = SynergyApp/Resources/nextFeedback.png; sourceTree = "<group>"; };
+		BCE15E9D03E421D5005E6BE2 /* pauseFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pauseFeedback.png; path = SynergyApp/Resources/pauseFeedback.png; sourceTree = "<group>"; };
+		BCE15E9E03E421D5005E6BE2 /* playFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playFeedback.png; path = SynergyApp/Resources/playFeedback.png; sourceTree = "<group>"; };
+		BCE15E9F03E421D5005E6BE2 /* prevFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prevFeedback.png; path = SynergyApp/Resources/prevFeedback.png; sourceTree = "<group>"; };
+		BCE15EA403E42BE9005E6BE2 /* playPauseFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playPauseFeedback.png; path = SynergyApp/Resources/playPauseFeedback.png; sourceTree = "<group>"; };
+		BCE15EA603E43204005E6BE2 /* bars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bars.png; path = SynergyApp/Resources/bars.png; sourceTree = "<group>"; };
+		BCE15EA803E459B6005E6BE2 /* WOFeedbackDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOFeedbackDefaults.h; path = SynergyApp/Classes/WOFeedbackDefaults.h; sourceTree = "<group>"; };
+		BCE15EB203E558A1005E6BE2 /* compileAppleScript.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = compileAppleScript.sh; path = SynergyApp/Scripts/compileAppleScript.sh; sourceTree = "<group>"; };
+		BCE4635F03CAB6BF00CB9B3F /* WONSStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WONSStringExtensions.h; path = SynergyCommon/Classes/WONSStringExtensions.h; sourceTree = "<group>"; };
+		BCE4636003CAB6BF00CB9B3F /* WONSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WONSStringExtensions.m; path = SynergyCommon/Classes/WONSStringExtensions.m; sourceTree = "<group>"; };
+		BCE8D3E90420BEAA00A80001 /* WOButtonWithTrackingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOButtonWithTrackingRect.h; path = SynergyApp/Classes/WOButtonWithTrackingRect.h; sourceTree = "<group>"; };
+		BCE8D3EA0420BEAA00A80001 /* WOButtonWithTrackingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOButtonWithTrackingRect.m; path = SynergyApp/Classes/WOButtonWithTrackingRect.m; sourceTree = "<group>"; };
+		BCF3AFAF060B3C9E00B2B13C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = SynergyPref/Resources/ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCF3AFB0060B3CAF00B2B13C /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = SynergyPref/Resources/ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCF3AFB1060B3D2A00B2B13C /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = SynergyApp/Resources/ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCF3AFB2060B3D4700B2B13C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = SynergyApp/Resources/ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCFE77750B0211FE005B3442 /* Synergy.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Synergy.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F5277179039F7A0B013BBD0D /* WOPreferences.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WOPreferences.h; path = SynergyCommon/Classes/WOPreferences.h; sourceTree = "<group>"; };
+		F527717A039F7A0B013BBD0D /* WOPreferences.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WOPreferences.m; path = SynergyCommon/Classes/WOPreferences.m; sourceTree = "<group>"; };
+		F54314780394BAF401AC36F3 /* HotkeyCapableApplication.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = HotkeyCapableApplication.h; path = SynergyApp/Classes/HotkeyCapableApplication.h; sourceTree = "<group>"; };
+		F54314790394BAF401AC36F3 /* HotkeyCapableApplication.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = HotkeyCapableApplication.m; path = SynergyApp/Classes/HotkeyCapableApplication.m; sourceTree = "<group>"; };
+		F543147A0394BAF401AC36F3 /* SynergyController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SynergyController.h; path = SynergyApp/Classes/SynergyController.h; sourceTree = "<group>"; };
+		F543147B0394BAF401AC36F3 /* SynergyController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SynergyController.m; path = SynergyApp/Classes/SynergyController.m; sourceTree = "<group>"; };
+		F543148F0394BB0E01AC36F3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "SynergyApp/Other Sources/main.m"; sourceTree = "<group>"; };
+		F54314910394BB2101AC36F3 /* getSongInfo.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; name = getSongInfo.applescript; path = SynergyApp/Scripts/getSongInfo.applescript; sourceTree = "<group>"; };
+		F54314930394BB6601AC36F3 /* Synergy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Synergy.icns; path = SynergyApp/Resources/Synergy.icns; sourceTree = "<group>"; };
+		F54FD5E70393F70D010D9943 /* RELEASE PROCEDURE */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "RELEASE PROCEDURE"; sourceTree = "<group>"; };
+		F55DFBBE03A84D64010663F9 /* WODebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WODebug.h; path = SynergyCommon/Classes/WODebug.h; sourceTree = "<group>"; };
+		F56702DC03A4BC7201842AA0 /* WOSynergyView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WOSynergyView.h; path = SynergyCommon/Classes/WOSynergyView.h; sourceTree = "<group>"; };
+		F56702DD03A4BC7201842AA0 /* WOSynergyView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WOSynergyView.m; path = SynergyCommon/Classes/WOSynergyView.m; sourceTree = "<group>"; };
+		F56E9BFC0394A55F010CA6FF /* OrgWincentSynergyPref.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OrgWincentSynergyPref.h; path = SynergyPref/Classes/OrgWincentSynergyPref.h; sourceTree = "<group>"; };
+		F56E9BFD0394A55F010CA6FF /* OrgWincentSynergyPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = OrgWincentSynergyPref.m; path = SynergyPref/Classes/OrgWincentSynergyPref.m; sourceTree = "<group>"; };
+		F577917B0395498401EE990F /* WODistributedNotification.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WODistributedNotification.h; path = SynergyCommon/Classes/WODistributedNotification.h; sourceTree = "<group>"; };
+		F577917C0395498401EE990F /* WODistributedNotification.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WODistributedNotification.m; path = SynergyCommon/Classes/WODistributedNotification.m; sourceTree = "<group>"; };
+		F57E7B5303AD61D401A8AA3E /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = defaults.plist; path = SynergyCommon/Resources/defaults.plist; sourceTree = "<group>"; };
+		F58C12B103991E4E01B0D373 /* Spanish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Spanish; path = SynergyPref/Resources/Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F58C12B203991E6001B0D373 /* Spanish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Spanish; path = SynergyPref/Resources/Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5B86F6A0399320C010F9052 /* Spanish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Spanish; path = SynergyApp/Resources/Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5B86F6B03993218010F9052 /* Spanish */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Spanish; path = SynergyApp/Resources/Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5B86F6D039932B1010F9052 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; name = build.sh; path = SynergyApp/Scripts/build.sh; sourceTree = "<group>"; };
+		F5CAFBDB039C8FC1019C532D /* Development notes.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "Development notes.txt"; sourceTree = "<group>"; };
+		F5CAFBDE039C9165019C532D /* Icon.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = Icon.r; path = SynergyPref/Resources/Icon.r; sourceTree = "<group>"; };
+		F5CB1D790394B24501754549 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F5CB1D7A0394B24501754549 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F5CB1D7B0394B24501754549 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F5CB1D7C0394B24501754549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6A2A3C0D149F500080E56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8814EB0D19F5EB00D969B3 /* Security.framework in Frameworks */,
+				BC6A2A650D14A18C0080E56B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE22D9093B34BD00FAD628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCC01200BB437EF00A36444 /* Carbon.framework in Frameworks */,
+				BCCC011A0BB4377300A36444 /* Cocoa.framework in Frameworks */,
+				BC3C93470B00DCBF0066E6D7 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE2352093B34BD00FAD628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBE2354093B34BD00FAD628 /* Carbon.framework in Frameworks */,
+				BCBE2355093B34BD00FAD628 /* Cocoa.framework in Frameworks */,
+				BCBE2357093B34BD00FAD628 /* SystemConfiguration.framework in Frameworks */,
+				BCBE2358093B34BD00FAD628 /* Growl.framework in Frameworks */,
+				BC98EAC30A3A01060048ADFF /* QuickTime.framework in Frameworks */,
+				BC3C93480B00DCBF0066E6D7 /* Security.framework in Frameworks */,
+				BCA18E830D33C991002092F0 /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Synergy */ = {
+			isa = PBXGroup;
+			children = (
+				BC5F9B140CFC338F00A5957F /* Configuration */,
+				BC6738260CFA0ACE0097E36B /* Scripts */,
+				BC0B9D560FF40845007AE543 /* WOPublic */,
+				BC88175D0D1ACB2700D969B3 /* WOSynergy_Version.h */,
+				F54FD5E70393F70D010D9943 /* RELEASE PROCEDURE */,
+				F5CAFBDB039C8FC1019C532D /* Development notes.txt */,
+				F5964509039B4115014C8642 /* SynergyCommon */,
+				F5CB1D6B0394AF0D01754549 /* SynergyApp */,
+				F5CB219F0394B36D01754549 /* SynergyPref */,
+				BC6A2A490D149FA00080E56B /* Synergy Preferences */,
+				F5FF36EC0399FF2A01EE0299 /* SynergyDiskImage */,
+				F56944CE03AE3D7301A2C68D /* SynergyDocs */,
+				BC8817350D1ACAE500D969B3 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = Synergy;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC3C8CB20B00B8B80066E6D7 /* audioscrobbler.xib */,
+				BCBE22E5093B34BD00FAD628 /* Info.plist */,
+				F58C12A803991E3601B0D373 /* InfoPlist.strings */,
+				F58C12AA03991E3601B0D373 /* Localizable.strings */,
+				F58C12AC03991E3601B0D373 /* OrgWincentSynergyPref.xib */,
+				BCDC340D03E41DBA00A59DD4 /* pin.xib */,
+				BCDF68270753B6A100EF20AF /* about.rtf */,
+				BC689891046AC30F00A80001 /* Unicodes.plist */,
+				F5CAFBDE039C9165019C532D /* Icon.r */,
+				BCDC340703E41D2800A59DD4 /* pin.png */,
+				BCDC340803E41D2800A59DD4 /* SynergyLarge.png */,
+				BCAC73AF07E5FE9300FDA956 /* NoCoverArt.png */,
+				BCDC340903E41D2800A59DD4 /* SynergyPref.png */,
+				BCDC340103E41B8B00A59DD4 /* nextImage.png */,
+				BCDC340203E41B8B00A59DD4 /* playImage.png */,
+				BCDC340303E41B8B00A59DD4 /* prevImage.png */,
+				BC0B53920982BCD00033B1A7 /* MacOSX_Universal_60px.gif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F56E9BFC0394A55F010CA6FF /* OrgWincentSynergyPref.h */,
+				F56E9BFD0394A55F010CA6FF /* OrgWincentSynergyPref.m */,
+				BC911C1303C31CBC000D6AD2 /* WOKeyCaptureView.h */,
+				BC911C1403C31CBC000D6AD2 /* WOKeyCaptureView.m */,
+				BC56F21803DC506600BD6ADA /* WOSynergyAnchorWindow.h */,
+				BC56F21903DC506600BD6ADA /* WOSynergyAnchorWindow.m */,
+				BC56F21C03DC508200BD6ADA /* WOSynergyAnchorView.h */,
+				BC56F21D03DC508200BD6ADA /* WOSynergyAnchorView.m */,
+				BC56F22303DC5A1800BD6ADA /* WOSynergyAnchorController.h */,
+				BC56F22403DC5A1800BD6ADA /* WOSynergyAnchorController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCBE2364093B34BD00FAD628 /* Synergy.app */,
+				BCFE77750B0211FE005B3442 /* Synergy.prefPane */,
+				BC6A2A3E0D149F500080E56B /* Synergy Preferences.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0B9D620FF40882007AE543 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9D640FF408A5007AE543 /* WOConvenienceMacros.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BC0B9D630FF4088A007AE543 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BC55A1A4103ABA9000B5AB83 /* NSDictionary+WOCreation.h */,
+				BC55A1A5103ABA9000B5AB83 /* NSDictionary+WOCreation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BC0B9D9C0FF409E3007AE543 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9DAD0FF40A3E007AE543 /* WOLogManager.h */,
+				BC0B9DAE0FF40A3E007AE543 /* WOLogManager.m */,
+				BC0B9DAF0FF40A3E007AE543 /* WOLoginItem.h */,
+				BC0B9DB00FF40A3E007AE543 /* WOLoginItem.m */,
+				BC0B9DB10FF40A3E007AE543 /* WOLoginItemList.h */,
+				BC0B9DB20FF40A3E007AE543 /* WOLoginItemList.m */,
+				BC0B9DB30FF40A3E007AE543 /* WOObject.h */,
+				BC0B9DB40FF40A3E007AE543 /* WOObject.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BC0B9D9F0FF409EA007AE543 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9DBE0FF40A80007AE543 /* NSDictionary+WOCreation.h */,
+				BC0B9DBF0FF40A80007AE543 /* NSDictionary+WOCreation.m */,
+				BC0B9DA50FF40A1F007AE543 /* NSMutableString+WOEditingUtilities.h */,
+				BC0B9DA60FF40A1F007AE543 /* NSMutableString+WOEditingUtilities.m */,
+				BC0B9DA70FF40A1F007AE543 /* NSString+WOCreation.h */,
+				BC0B9DA80FF40A1F007AE543 /* NSString+WOCreation.m */,
+				BC0B9DA90FF40A1F007AE543 /* NSString+WOFileUtilities.h */,
+				BC0B9DAA0FF40A1F007AE543 /* NSString+WOFileUtilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BC0B9DA20FF409F0007AE543 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9DC00FF40A8A007AE543 /* WOConvenienceMacros.h */,
+				BC0B9DC10FF40A8A007AE543 /* WODebugMacros.h */,
+				BC0B9DC20FF40A8A007AE543 /* WOMemory.h */,
+				BC0B9DC30FF40A8A007AE543 /* WOMemoryBarrier.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BC55A137103AA1B000B5AB83 /* WOPublic */ = {
+			isa = PBXGroup;
+			children = (
+				BC2A3E7A10F205270051E3BF /* WOConvenienceMacros.h */,
+				BC024B13104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.h */,
+				BC024B14104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.m */,
+				BC024B15104ADB1F001A9488 /* NSString+WOCreation.h */,
+				BC024B16104ADB1F001A9488 /* NSString+WOCreation.m */,
+				BC55A139103AA1FF00B5AB83 /* NSDictionary+WOCreation.h */,
+				BC55A13A103AA1FF00B5AB83 /* NSDictionary+WOCreation.m */,
+				BC55A138103AA1C300B5AB83 /* WOConvenienceMacros.h */,
+			);
+			name = WOPublic;
+			sourceTree = "<group>";
+		};
+		BC584A3A0FEFF24800F7BD9E /* WOPublic */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9D630FF4088A007AE543 /* Categories */,
+				BC0B9D620FF40882007AE543 /* Headers */,
+			);
+			name = WOPublic;
+			sourceTree = "<group>";
+		};
+		BC5F9B140CFC338F00A5957F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9CF20FF401C6007AE543 /* release-style.xcconfig */,
+				BC0B9CF30FF401C6007AE543 /* debug-style.xcconfig */,
+				BC0B9CF40FF401C6007AE543 /* pref-pane-target.xcconfig */,
+				BC0B9CF50FF401C6007AE543 /* cocoa-app-target.xcconfig */,
+				BC0B9CF60FF401C6007AE543 /* base-style.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		BC6738260CFA0ACE0097E36B /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				BC8BE0B4127DBC9400B6B534 /* sign.sh */,
+				BC78E3ED103738FE0087DA74 /* tag-release.sh */,
+				BC8B9BB00D23111400A11CB9 /* distro.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		BC6A2A490D149FA00080E56B /* Synergy Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				BC88153E0D19FB4100D969B3 /* WOPublic */,
+				BC9885D00D1922C100B00823 /* Other Sources */,
+				BC9885D10D1922C900B00823 /* Classes */,
+				BC9885D20D1922CF00B00823 /* Resources */,
+			);
+			name = "Synergy Preferences";
+			sourceTree = "<group>";
+		};
+		BC88153E0D19FB4100D969B3 /* WOPublic */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B9DA20FF409F0007AE543 /* Headers */,
+				BC0B9D9F0FF409EA007AE543 /* Categories */,
+				BC0B9D9C0FF409E3007AE543 /* Classes */,
+			);
+			name = WOPublic;
+			sourceTree = "<group>";
+		};
+		BC8817350D1ACAE500D969B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA18E820D33C991002092F0 /* ScriptingBridge.framework */,
+				BC3C93120B00DCBE0066E6D7 /* Security.framework */,
+				BC98EA9F0A3A01060048ADFF /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC963A7003E268E700965C5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC9885D00D1922C100B00823 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A2A5B0D14A1210080E56B /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BC9885D10D1922C900B00823 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC1567AA0D185F5C001991C5 /* WOPreferencePane.h */,
+				BC1567AB0D185F5C001991C5 /* WOPreferencePane.m */,
+				BC9885CD0D19226800B00823 /* WOPreferenceWindow.h */,
+				BC9885CE0D19226800B00823 /* WOPreferenceWindow.m */,
+				BC9885F80D1927FF00B00823 /* WOSynergyPreferencesController.h */,
+				BC9885F90D1927FF00B00823 /* WOSynergyPreferencesController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BC9885D20D1922CF00B00823 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC8815B10D1AAA9900D969B3 /* Synergy.icns */,
+				BC8815CE0D1AC7E100D969B3 /* InfoPlist.strings */,
+				BC6A2A580D14A1000080E56B /* SynergyPreferences.xib */,
+				BC6A2A400D149F500080E56B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC98E7530A39D8AE0048ADFF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D0AC3042FCFFE00A80001 /* WONSFileManagerExtensions.h */,
+				BC5D0AC4042FCFFE00A80001 /* WONSFileManagerExtensions.m */,
+				BC98E7560A39D8C60048ADFF /* NSImage+WOAdditions.h */,
+				BC98E7570A39D8C60048ADFF /* NSImage+WOAdditions.m */,
+				BC98E7CB0A39F0EF0048ADFF /* NSAppleScript+WOAdditions.h */,
+				BC98E7CC0A39F0EF0048ADFF /* NSAppleScript+WOAdditions.m */,
+				BC3C95FC0B0108A00066E6D7 /* NSTimer+WOPausable.h */,
+				BC3C95FD0B0108A00066E6D7 /* NSTimer+WOPausable.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F56944CE03AE3D7301A2C68D /* SynergyDocs */ = {
+			isa = PBXGroup;
+			children = (
+				F56944CF03AE3D8601A2C68D /* Scripts */,
+			);
+			name = SynergyDocs;
+			sourceTree = "<group>";
+		};
+		F56944CF03AE3D8601A2C68D /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		F5779F3D039615DC01EE990F /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		F57E7B5203AD61BB01A8AA3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F57E7B5303AD61D401A8AA3E /* defaults.plist */,
+				BC7B628303D466F400B1B2E1 /* synergyFloater.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5964509039B4115014C8642 /* SynergyCommon */ = {
+			isa = PBXGroup;
+			children = (
+				F57E7B5203AD61BB01A8AA3E /* Resources */,
+				F596450A039B411C014C8642 /* Classes */,
+			);
+			name = SynergyCommon;
+			sourceTree = "<group>";
+		};
+		F596450A039B411C014C8642 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC3C8C400B00A89D0066E6D7 /* WOAudioscrobblerController.h */,
+				BC3C8C410B00A89D0066E6D7 /* WOAudioscrobblerController.m */,
+				BC5BAB4E03C1B27100799024 /* WOCarbonWrappers.h */,
+				BC5BAB4F03C1B27100799024 /* WOCarbonWrappers.m */,
+				BC0B61BA03C9D2580035855F /* WOCommon.h */,
+				F55DFBBE03A84D64010663F9 /* WODebug.h */,
+				F577917B0395498401EE990F /* WODistributedNotification.h */,
+				F577917C0395498401EE990F /* WODistributedNotification.m */,
+				BCE4635F03CAB6BF00CB9B3F /* WONSStringExtensions.h */,
+				BCE4636003CAB6BF00CB9B3F /* WONSStringExtensions.m */,
+				F5277179039F7A0B013BBD0D /* WOPreferences.h */,
+				F527717A039F7A0B013BBD0D /* WOPreferences.m */,
+				BC30616403FA8FDD007C4E56 /* WOSynergyGlobal.h */,
+				F56702DC03A4BC7201842AA0 /* WOSynergyView.h */,
+				F56702DD03A4BC7201842AA0 /* WOSynergyView.m */,
+				BC7B627303D45F7D00B1B2E1 /* WORoundedRect.h */,
+				BC7B627403D45F7D00B1B2E1 /* WORoundedRect.m */,
+				BCC2DD090445BC6B00A80001 /* WOSynergyFloater.h */,
+				BC7B627703D4602200B1B2E1 /* WOSynergyFloaterView.h */,
+				BC7B627803D4602200B1B2E1 /* WOSynergyFloaterView.m */,
+				BC7B627B03D460B300B1B2E1 /* WOSynergyFloaterWindow.h */,
+				BC7B627C03D460B300B1B2E1 /* WOSynergyFloaterWindow.m */,
+				BC7B627F03D4613B00B1B2E1 /* WOSynergyFloaterController.h */,
+				BC7B628003D4613B00B1B2E1 /* WOSynergyFloaterController.m */,
+				BC5CC3260409B4E2001CCC4A /* WOButtonSet.h */,
+				BC5CC3270409B4E2001CCC4A /* WOButtonSet.m */,
+				BC26C14B041C82F500A80001 /* WONSScreenExtensions.h */,
+				BC26C14C041C82F500A80001 /* WONSScreenExtensions.m */,
+				BC5D0AC7042FDFFF00A80001 /* WOExceptions.h */,
+				BC037D100430328600A80001 /* WOControlButtons.h */,
+				BC037D110430328600A80001 /* WOControlButtons.m */,
+				BC17717A044386A900A80001 /* NSString+WOExtensions.h */,
+				BC17717B044386A900A80001 /* NSString+WOExtensions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F5CB1D6B0394AF0D01754549 /* SynergyApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC55A137103AA1B000B5AB83 /* WOPublic */,
+				BC98E7530A39D8AE0048ADFF /* Categories */,
+				F5CB21860394B27B01754549 /* Classes */,
+				F5CB21870394B27F01754549 /* Resources */,
+				F5CB218A0394B2CD01754549 /* Other Sources */,
+				F5CB21890394B29401754549 /* Scripts */,
+				F5CB21880394B28301754549 /* Frameworks and Libraries */,
+			);
+			name = SynergyApp;
+			sourceTree = "<group>";
+		};
+		F5CB21860394B27B01754549 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCA18E860D33C9B1002092F0 /* iTunes.h */,
+				F54314780394BAF401AC36F3 /* HotkeyCapableApplication.h */,
+				F54314790394BAF401AC36F3 /* HotkeyCapableApplication.m */,
+				F543147A0394BAF401AC36F3 /* SynergyController.h */,
+				F543147B0394BAF401AC36F3 /* SynergyController.m */,
+				BC7E248003DB8FEE002EDF57 /* WOProcessManager.h */,
+				BC7E248103DB8FEE002EDF57 /* WOProcessManager.m */,
+				BCDC33E003E2799000A59DD4 /* WOFeedbackView.h */,
+				BCDC33E103E2799000A59DD4 /* WOFeedbackView.m */,
+				BCE15EA803E459B6005E6BE2 /* WOFeedbackDefaults.h */,
+				BCDC33E403E279CB00A59DD4 /* WOFeedbackController.h */,
+				BCDC33E503E279CB00A59DD4 /* WOFeedbackController.m */,
+				BCDC33E803E279D900A59DD4 /* WOFeedbackWindow.h */,
+				BCDC33E903E279D900A59DD4 /* WOFeedbackWindow.m */,
+				BC542869040520370052F570 /* WOCoverDownloader.h */,
+				BC54286A040520370052F570 /* WOCoverDownloader.m */,
+				BC27E64A042DEF5300A80001 /* WOSongInfo.h */,
+				BC27E64B042DEF5300A80001 /* WOSongInfo.m */,
+				BC040E40041F3C180052CE41 /* WOButtonState.h */,
+				BC040E41041F3C180052CE41 /* WOButtonState.m */,
+				BCE8D3E90420BEAA00A80001 /* WOButtonWithTrackingRect.h */,
+				BCE8D3EA0420BEAA00A80001 /* WOButtonWithTrackingRect.m */,
+				BCC06709045D179D00A80001 /* WOButtonCellWithTrackingRect.h */,
+				BCC0670C045D1B8400A80001 /* WOButtonCellWithTrackingRect.m */,
+				BCC066EF045BF68A00A80001 /* WOPopUpButton.h */,
+				BCC066F0045BF68A00A80001 /* WOPopUpButton.m */,
+				BC617DFF0AF7CC9D00E1268F /* WOAudioscrobbler.h */,
+				BC617E000AF7CC9D00E1268F /* WOAudioscrobbler.m */,
+				BC3C8AFF0AFF9FC50066E6D7 /* SynergyController+WOAudioscrobbler.h */,
+				BC3C8B000AFF9FC50066E6D7 /* SynergyController+WOAudioscrobbler.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F5CB21870394B27F01754549 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BD60306DE9F4E004768FD /* SynergyButtons.icns */,
+				BC3BD42406DE6FF5004768FD /* Button Sets */,
+				BCC06705045CD73700A80001 /* musicGlyph.png */,
+				BCBB9316046FC5EB00A80001 /* musicGlyphSelected.png */,
+				BCBE2360093B34BD00FAD628 /* Info.plist */,
+				F5B86F61039931F1010F9052 /* InfoPlist.strings */,
+				F5B86F63039931F1010F9052 /* Localizable.strings */,
+				F5B86F65039931F1010F9052 /* synergyMain.xib */,
+				BCDC33EC03E2BA3C00A59DD4 /* feedback.xib */,
+				BC927353040CE2330099CFAC /* repeatAll.png */,
+				BC927354040CE2330099CFAC /* repeatOff.png */,
+				BC927355040CE2330099CFAC /* repeatOne.png */,
+				BC927305040BA1860099CFAC /* shuffleOff.png */,
+				BC927306040BA1860099CFAC /* shuffleOn.png */,
+				BCE15E9C03E421D5005E6BE2 /* nextFeedback.png */,
+				BCE15E9D03E421D5005E6BE2 /* pauseFeedback.png */,
+				BCE15E9E03E421D5005E6BE2 /* playFeedback.png */,
+				BCE15E9F03E421D5005E6BE2 /* prevFeedback.png */,
+				BCDC33F203E419E800A59DD4 /* nextImage.png */,
+				BCDC33F303E419E800A59DD4 /* pauseImage.png */,
+				BC0AE4E30406480B00248FD8 /* playPauseImage.png */,
+				BCE15EA403E42BE9005E6BE2 /* playPauseFeedback.png */,
+				BCDC33F403E419E800A59DD4 /* playImage.png */,
+				BCDC33F503E419E800A59DD4 /* prevImage.png */,
+				BCDC33F603E419E800A59DD4 /* stopImage.png */,
+				BCAC739107E5FDF800FDA956 /* NoCoverArt.png */,
+				BCDC33F703E419E800A59DD4 /* SynergyLarge.png */,
+				F54314930394BB6601AC36F3 /* Synergy.icns */,
+				BCDC33F003E2FFFA00A59DD4 /* volume.png */,
+				BCE15EA603E43204005E6BE2 /* bars.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5CB21880394B28301754549 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BC680D640834C48F00ABF3B8 /* Growl.framework */,
+				BC5D0AD8042FE8A300A80001 /* CoreFoundation.framework */,
+				BCBE04380426C12B00A80001 /* SystemConfiguration.framework */,
+				F5CB1D7B0394B24501754549 /* Cocoa.framework */,
+				F5CB1D790394B24501754549 /* AppKit.framework */,
+				F5CB1D7A0394B24501754549 /* Carbon.framework */,
+				F5CB1D7C0394B24501754549 /* Foundation.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		F5CB21890394B29401754549 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F54314910394BB2101AC36F3 /* getSongInfo.applescript */,
+				F5B86F6D039932B1010F9052 /* build.sh */,
+				BCE15EB203E558A1005E6BE2 /* compileAppleScript.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		F5CB218A0394B2CD01754549 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F543148F0394BB0E01AC36F3 /* main.m */,
+				BC08FB9D0404F1E00099965D /* WOSysctl.h */,
+				BC08FB9E0404F1E00099965D /* WOSysctl.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F5CB219F0394B36D01754549 /* SynergyPref */ = {
+			isa = PBXGroup;
+			children = (
+				BC584A3A0FEFF24800F7BD9E /* WOPublic */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				F5779F3D039615DC01EE990F /* Scripts */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+			);
+			name = SynergyPref;
+			sourceTree = "<group>";
+		};
+		F5FF36EC0399FF2A01EE0299 /* SynergyDiskImage */ = {
+			isa = PBXGroup;
+			children = (
+				BC963A7003E268E700965C5C /* Resources */,
+				F5FF36ED0399FF3101EE0299 /* Scripts */,
+			);
+			name = SynergyDiskImage;
+			sourceTree = "<group>";
+		};
+		F5FF36ED0399FF3101EE0299 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6A2A3D0D149F500080E56B /* Synergy Preferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A2A430D149F510080E56B /* Build configuration list for PBXNativeTarget "Synergy Preferences" */;
+			buildPhases = (
+				BC6A2A3A0D149F500080E56B /* Resources */,
+				BC6A2A3B0D149F500080E56B /* Sources */,
+				BC6A2A3C0D149F500080E56B /* Frameworks */,
+				BC8815CD0D1AC75000D969B3 /* Run Script (Preprocess InfoPlist.strings) */,
+				BC8BE14B127DD96A00B6B534 /* Run Script (sign) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Synergy Preferences";
+			productName = "Synergy Preferences";
+			productReference = BC6A2A3E0D149F500080E56B /* Synergy Preferences.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCBE228A093B34BD00FAD628 /* SynergyPref */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBE22E0093B34BD00FAD628 /* Build configuration list for PBXNativeTarget "SynergyPref" */;
+			buildPhases = (
+				BCBE22AE093B34BD00FAD628 /* Resources */,
+				BCBE22BC093B34BD00FAD628 /* Sources */,
+				BCBE22D9093B34BD00FAD628 /* Frameworks */,
+				BCBE22DD093B34BD00FAD628 /* Run Script (update strings) */,
+				BCBE22DE093B34BD00FAD628 /* Copy Files (Synergy.app) */,
+				BC5C50CC0BA85B4E00A2215A /* Run Script (Preprocess InfoPlist.strings) */,
+				BC8BE149127DD95300B6B534 /* Run Script (sign) */,
+			);
+			buildRules = (
+				BCBE22E8093B34BD00FAD628 /* PBXBuildRule */,
+			);
+			dependencies = (
+				BC1567BE0D18653E001991C5 /* PBXTargetDependency */,
+				BCBE23A1093B34BD00FAD628 /* PBXTargetDependency */,
+			);
+			name = SynergyPref;
+			productName = Synergy;
+			productReference = BCFE77750B0211FE005B3442 /* Synergy.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BCBE22EA093B34BD00FAD628 /* SynergyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBE235B093B34BD00FAD628 /* Build configuration list for PBXNativeTarget "SynergyApp" */;
+			buildPhases = (
+				BCBE2313093B34BD00FAD628 /* Resources */,
+				BCBE232D093B34BD00FAD628 /* CopyFiles */,
+				BCBE232F093B34BD00FAD628 /* Sources */,
+				BCBE2352093B34BD00FAD628 /* Frameworks */,
+				BCBE2359093B34BD00FAD628 /* Run Script (compile AppleScripts) */,
+				BCBE235A093B34BD00FAD628 /* Run Script (update strings) */,
+				BC5C50D00BA85B6400A2215A /* Run Script (Preprocess InfoPlist.strings) */,
+				BC8BE0D7127DBCA900B6B534 /* Run Script (sign) */,
+			);
+			buildRules = (
+				BCBE2363093B34BD00FAD628 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SynergyApp;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = Synergy;
+			productReference = BCBE2364093B34BD00FAD628 /* Synergy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BC1A68FB085BD178004E0E61 /* Build configuration list for PBXProject "Synergy" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+				Dutch,
+				Swedish,
+				ru,
+				Norwegian,
+				Norweigan,
+				pt,
+				zh_TW,
+				it,
+				tr,
+				zh_CN,
+				en,
+				es,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Synergy */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCBE228A093B34BD00FAD628 /* SynergyPref */,
+				BCBE22EA093B34BD00FAD628 /* SynergyApp */,
+				BC6A2A3D0D149F500080E56B /* Synergy Preferences */,
+				BC1567C00D186568001991C5 /* Synergy Prefs + SynergyPref */,
+				BC881F3E0D1AD08C00D969B3 /* Update build number */,
+				BC8B9A730D22EC7F00A11CB9 /* Distribution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6A2A3A0D149F500080E56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A2A5A0D14A1000080E56B /* SynergyPreferences.xib in Resources */,
+				BC8815B20D1AAA9900D969B3 /* Synergy.icns in Resources */,
+				BC8815D00D1AC7E100D969B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE22AE093B34BD00FAD628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBE22AF093B34BD00FAD628 /* InfoPlist.strings in Resources */,
+				BCBE22B0093B34BD00FAD628 /* Localizable.strings in Resources */,
+				BCBE22B1093B34BD00FAD628 /* OrgWincentSynergyPref.xib in Resources */,
+				BCBE22B2093B34BD00FAD628 /* defaults.plist in Resources */,
+				BCBE22B3093B34BD00FAD628 /* synergyFloater.xib in Resources */,
+				BCBE22B4093B34BD00FAD628 /* pin.png in Resources */,
+				BCBE22B5093B34BD00FAD628 /* SynergyPref.png in Resources */,
+				BCBE22B6093B34BD00FAD628 /* pin.xib in Resources */,
+				BCBE22B7093B34BD00FAD628 /* SynergyLarge.png in Resources */,
+				BCBE22B8093B34BD00FAD628 /* Unicodes.plist in Resources */,
+				BCBE22BA093B34BD00FAD628 /* about.rtf in Resources */,
+				BCBE22BB093B34BD00FAD628 /* NoCoverArt.png in Resources */,
+				BC0B53930982BCD00033B1A7 /* MacOSX_Universal_60px.gif in Resources */,
+				BC3C8CB80B00B8B80066E6D7 /* audioscrobbler.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE2313093B34BD00FAD628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBE2314093B34BD00FAD628 /* InfoPlist.strings in Resources */,
+				BCBE2315093B34BD00FAD628 /* Localizable.strings in Resources */,
+				BCBE2316093B34BD00FAD628 /* synergyMain.xib in Resources */,
+				BCBE2317093B34BD00FAD628 /* defaults.plist in Resources */,
+				BCBE2318093B34BD00FAD628 /* synergyFloater.xib in Resources */,
+				BCBE2319093B34BD00FAD628 /* feedback.xib in Resources */,
+				BCBE231A093B34BD00FAD628 /* volume.png in Resources */,
+				BCBE231B093B34BD00FAD628 /* SynergyLarge.png in Resources */,
+				BCBE231C093B34BD00FAD628 /* nextFeedback.png in Resources */,
+				BCBE231D093B34BD00FAD628 /* pauseFeedback.png in Resources */,
+				BCBE231E093B34BD00FAD628 /* playFeedback.png in Resources */,
+				BCBE231F093B34BD00FAD628 /* prevFeedback.png in Resources */,
+				BCBE2320093B34BD00FAD628 /* playPauseFeedback.png in Resources */,
+				BCBE2321093B34BD00FAD628 /* bars.png in Resources */,
+				BCBE2322093B34BD00FAD628 /* shuffleOff.png in Resources */,
+				BCBE2323093B34BD00FAD628 /* shuffleOn.png in Resources */,
+				BCBE2324093B34BD00FAD628 /* repeatAll.png in Resources */,
+				BCBE2325093B34BD00FAD628 /* repeatOff.png in Resources */,
+				BCBE2326093B34BD00FAD628 /* repeatOne.png in Resources */,
+				BCBE2327093B34BD00FAD628 /* Synergy.icns in Resources */,
+				BCBE2328093B34BD00FAD628 /* musicGlyph.png in Resources */,
+				BCBE2329093B34BD00FAD628 /* musicGlyphSelected.png in Resources */,
+				BCBE232A093B34BD00FAD628 /* Button Sets in Resources */,
+				BCBE232B093B34BD00FAD628 /* SynergyButtons.icns in Resources */,
+				BCBE232C093B34BD00FAD628 /* NoCoverArt.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC5C50CC0BA85B4E00A2215A /* Run Script (Preprocess InfoPlist.strings) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (Preprocess InfoPlist.strings)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${BUILDTOOLS_DIR}/PreprocessInfoPlistStrings.sh\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n";
+		};
+		BC5C50D00BA85B6400A2215A /* Run Script (Preprocess InfoPlist.strings) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (Preprocess InfoPlist.strings)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${BUILDTOOLS_DIR}/PreprocessInfoPlistStrings.sh\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n";
+		};
+		BC8815CD0D1AC75000D969B3 /* Run Script (Preprocess InfoPlist.strings) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (Preprocess InfoPlist.strings)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${BUILDTOOLS_DIR}/PreprocessInfoPlistStrings.sh\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n";
+		};
+		BC881F3D0D1AD08C00D969B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\ncd \"${SOURCE_ROOT}\"\n\"${BUILDTOOLS_DIR}/UpdateGitRevisionNumbers.rb\"\n. \"${BUILDTOOLS_DIR}/UpdateBuildVersionNumbers.sh\" \"WOSynergy_Version.h\"\n";
+		};
+		BC8B9A720D22EC7F00A11CB9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh -e";
+			shellScript = ". \"$SOURCE_ROOT/distro.sh\"\n";
+		};
+		BC8BE0D7127DBCA900B6B534 /* Run Script (sign) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (sign)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". $SOURCE_ROOT/sign.sh";
+		};
+		BC8BE149127DD95300B6B534 /* Run Script (sign) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (sign)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". $SOURCE_ROOT/sign.sh";
+		};
+		BC8BE14B127DD96A00B6B534 /* Run Script (sign) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (sign)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". $SOURCE_ROOT/sign.sh";
+		};
+		BCBE22DD093B34BD00FAD628 /* Run Script (update strings) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/SynergyPref/Classes/WOKeyCaptureView.m",
+				"$(SRCROOT)/SynergyPref/Classes/OrgWincentSynergyPref.m",
+			);
+			name = "Run Script (update strings)";
+			outputPaths = (
+				"$(SRCROOT)/SynergyPref/Resources/en.lproj/Localizable.strings",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh -e";
+			shellScript = ". \"${BUILDTOOLS_DIR}/CheckInputOutputFiles.sh\" ||\n  . \"${BUILDTOOLS_DIR}/UpdateStringsFiles.sh\" \\\n    \"${SOURCE_ROOT}/SynergyPref/Classes\" \\\n    \"${SOURCE_ROOT}/SynergyPref/Resources\"\n";
+		};
+		BCBE2359093B34BD00FAD628 /* Run Script (compile AppleScripts) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Run Script (compile AppleScripts)";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# IF YOU EDIT THIS SCRIPT, REMEMBER TO PLACE AN EDITED COPY IN THE TARGET/BUILD SETTINGS AREA\n#\n# $Id: project.pbxproj,v 1.22 2003/02/24 06:43:04 wincent Exp $\n#\n# this is ugly, but we override the default AppleScript compilation command in \n# order to add this -x flag (save as execute only)\n\n/bin/mkdir -p \"${BUILT_PRODUCTS_DIR}/Synergy.app/Contents/Resources/Scripts\"\n\n/usr/bin/osacompile  -x -d \\\n    -i /System/Library/Frameworks/AppleScriptKit.framework \\\n    -U getSongInfo.applescript  \\\n    -o \"${BUILT_PRODUCTS_DIR}/Synergy.app/Contents/Resources/Scripts/getSongInfo.scpt\" \\\n       \"${SOURCE_ROOT}/SynergyApp/Scripts/getSongInfo.applescript\"\n       \n       ";
+		};
+		BCBE235A093B34BD00FAD628 /* Run Script (update strings) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/SynergyApp/Classes/SynergyController.m",
+				"$(SRCROOT)/SynergyApp/Classes/HotkeyCapableApplication.m",
+			);
+			name = "Run Script (update strings)";
+			outputPaths = (
+				"$(SRCROOT)/SynergyApp/Resources/en.lproj/Localizable.strings",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${BUILDTOOLS_DIR}/CheckInputOutputFiles.sh\" ||\n  . \"${BUILDTOOLS_DIR}/UpdateStringsFiles.sh\" \\\n    \"${SOURCE_ROOT}/SynergyApp/Classes\" \\\n    \"${SOURCE_ROOT}/SynergyApp/Resources\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6A2A3B0D149F500080E56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0B9DD00FF40AC4007AE543 /* main.m in Sources */,
+				BC0B9DD10FF40AC4007AE543 /* NSDictionary+WOCreation.m in Sources */,
+				BC0B9DD20FF40AC4007AE543 /* NSMutableString+WOEditingUtilities.m in Sources */,
+				BC0B9DD30FF40AC4007AE543 /* NSString+WOCreation.m in Sources */,
+				BC0B9DD40FF40AC4007AE543 /* NSString+WOFileUtilities.m in Sources */,
+				BC0B9DD50FF40AC4007AE543 /* WOLoginItem.m in Sources */,
+				BC0B9DD60FF40AC4007AE543 /* WOLoginItemList.m in Sources */,
+				BC0B9DD70FF40AC4007AE543 /* WOLogManager.m in Sources */,
+				BC0B9DD80FF40AC4007AE543 /* WOObject.m in Sources */,
+				BC0B9DD90FF40AC4007AE543 /* WOPreferencePane.m in Sources */,
+				BC0B9DDA0FF40AC4007AE543 /* WOPreferenceWindow.m in Sources */,
+				BC0B9DDB0FF40AC4007AE543 /* WOSynergyPreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE22BC093B34BD00FAD628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0B9D7D0FF409A7007AE543 /* OrgWincentSynergyPref.m in Sources */,
+				BC0B9D7E0FF409A7007AE543 /* WOAudioscrobblerController.m in Sources */,
+				BC0B9D7F0FF409A7007AE543 /* WOButtonCellWithTrackingRect.m in Sources */,
+				BC0B9D800FF409A7007AE543 /* WOButtonSet.m in Sources */,
+				BC0B9D810FF409A7007AE543 /* WOButtonState.m in Sources */,
+				BC0B9D820FF409A7007AE543 /* WOButtonWithTrackingRect.m in Sources */,
+				BC0B9D830FF409A7007AE543 /* WOControlButtons.m in Sources */,
+				BC0B9D840FF409A7007AE543 /* WODistributedNotification.m in Sources */,
+				BC0B9D860FF409A7007AE543 /* WOKeyCaptureView.m in Sources */,
+				BC0B9D870FF409A7007AE543 /* WONSFileManagerExtensions.m in Sources */,
+				BC0B9D880FF409A7007AE543 /* WONSScreenExtensions.m in Sources */,
+				BC0B9D890FF409A7007AE543 /* WOPopUpButton.m in Sources */,
+				BC0B9D8A0FF409A7007AE543 /* WOPreferences.m in Sources */,
+				BC0B9D8B0FF409A7007AE543 /* WOProcessManager.m in Sources */,
+				BC0B9D8C0FF409A7007AE543 /* WORoundedRect.m in Sources */,
+				BC0B9D8D0FF409A7007AE543 /* WOSynergyAnchorController.m in Sources */,
+				BC0B9D8E0FF409A7007AE543 /* WOSynergyAnchorView.m in Sources */,
+				BC0B9D8F0FF409A7007AE543 /* WOSynergyAnchorWindow.m in Sources */,
+				BC0B9D900FF409A7007AE543 /* WOSynergyFloaterController.m in Sources */,
+				BC0B9D910FF409A7007AE543 /* WOSynergyFloaterView.m in Sources */,
+				BC0B9D920FF409A7007AE543 /* WOSynergyFloaterWindow.m in Sources */,
+				BC0B9D930FF409A7007AE543 /* WOSynergyView.m in Sources */,
+				BC55A1A6103ABA9000B5AB83 /* NSDictionary+WOCreation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE232F093B34BD00FAD628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0B9E270FF40C56007AE543 /* HotkeyCapableApplication.m in Sources */,
+				BC0B9E280FF40C56007AE543 /* main.m in Sources */,
+				BC0B9E290FF40C56007AE543 /* NSAppleScript+WOAdditions.m in Sources */,
+				BC0B9E2A0FF40C56007AE543 /* NSImage+WOAdditions.m in Sources */,
+				BC0B9E2B0FF40C56007AE543 /* NSString+WOExtensions.m in Sources */,
+				BC0B9E2C0FF40C56007AE543 /* NSTimer+WOPausable.m in Sources */,
+				BC0B9E2D0FF40C56007AE543 /* SynergyController+WOAudioscrobbler.m in Sources */,
+				BC0B9E2E0FF40C56007AE543 /* SynergyController.m in Sources */,
+				BC0B9E2F0FF40C56007AE543 /* WOAudioscrobbler.m in Sources */,
+				BC0B9E300FF40C56007AE543 /* WOAudioscrobblerController.m in Sources */,
+				BC0B9E310FF40C56007AE543 /* WOButtonCellWithTrackingRect.m in Sources */,
+				BC0B9E320FF40C56007AE543 /* WOButtonSet.m in Sources */,
+				BC0B9E330FF40C56007AE543 /* WOButtonState.m in Sources */,
+				BC0B9E340FF40C56007AE543 /* WOButtonWithTrackingRect.m in Sources */,
+				BC0B9E350FF40C56007AE543 /* WOCarbonWrappers.m in Sources */,
+				BC0B9E360FF40C56007AE543 /* WOControlButtons.m in Sources */,
+				BC0B9E370FF40C56007AE543 /* WOCoverDownloader.m in Sources */,
+				BC0B9E380FF40C56007AE543 /* WODistributedNotification.m in Sources */,
+				BC0B9E390FF40C56007AE543 /* WOFeedbackController.m in Sources */,
+				BC0B9E3A0FF40C56007AE543 /* WOFeedbackView.m in Sources */,
+				BC0B9E3B0FF40C56007AE543 /* WOFeedbackWindow.m in Sources */,
+				BC0B9E3D0FF40C56007AE543 /* WONSFileManagerExtensions.m in Sources */,
+				BC0B9E3E0FF40C56007AE543 /* WONSScreenExtensions.m in Sources */,
+				BC0B9E3F0FF40C56007AE543 /* WONSStringExtensions.m in Sources */,
+				BC0B9E400FF40C56007AE543 /* WOPopUpButton.m in Sources */,
+				BC0B9E410FF40C56007AE543 /* WOPreferences.m in Sources */,
+				BC0B9E420FF40C56007AE543 /* WOProcessManager.m in Sources */,
+				BC0B9E430FF40C56007AE543 /* WORoundedRect.m in Sources */,
+				BC0B9E440FF40C56007AE543 /* WOSongInfo.m in Sources */,
+				BC0B9E450FF40C56007AE543 /* WOSynergyFloaterController.m in Sources */,
+				BC0B9E460FF40C56007AE543 /* WOSynergyFloaterView.m in Sources */,
+				BC0B9E470FF40C56007AE543 /* WOSynergyFloaterWindow.m in Sources */,
+				BC0B9E480FF40C56007AE543 /* WOSynergyView.m in Sources */,
+				BC0B9E490FF40C56007AE543 /* WOSysctl.c in Sources */,
+				BC55A13B103AA1FF00B5AB83 /* NSDictionary+WOCreation.m in Sources */,
+				BC024B17104ADB1F001A9488 /* NSMutableString+WOEditingUtilities.m in Sources */,
+				BC024B18104ADB1F001A9488 /* NSString+WOCreation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1567BE0D18653E001991C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6A2A3D0D149F500080E56B /* Synergy Preferences */;
+			targetProxy = BC1567BD0D18653E001991C5 /* PBXContainerItemProxy */;
+		};
+		BC1567C40D18656E001991C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6A2A3D0D149F500080E56B /* Synergy Preferences */;
+			targetProxy = BC1567C30D18656E001991C5 /* PBXContainerItemProxy */;
+		};
+		BC1567C60D186570001991C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCBE228A093B34BD00FAD628 /* SynergyPref */;
+			targetProxy = BC1567C50D186570001991C5 /* PBXContainerItemProxy */;
+		};
+		BC8B9A800D22ECC000A11CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC881F3E0D1AD08C00D969B3 /* Update build number */;
+			targetProxy = BC8B9A7F0D22ECC000A11CB9 /* PBXContainerItemProxy */;
+		};
+		BC8B9A820D22ECC400A11CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1567C00D186568001991C5 /* Synergy Prefs + SynergyPref */;
+			targetProxy = BC8B9A810D22ECC400A11CB9 /* PBXContainerItemProxy */;
+		};
+		BCBE23A1093B34BD00FAD628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCBE22EA093B34BD00FAD628 /* SynergyApp */;
+			targetProxy = BCBE23A0093B34BD00FAD628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3C8CB20B00B8B80066E6D7 /* audioscrobbler.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC881F930D1AFEF100D969B3 /* en */,
+				BC7566750D1EFF49005AD9F2 /* zh_TW */,
+				BC7566760D1EFF49005AD9F2 /* zh_CN */,
+				BC7566770D1EFF49005AD9F2 /* tr */,
+				BC7566780D1EFF49005AD9F2 /* Swedish */,
+				BC7566790D1EFF49005AD9F2 /* Spanish */,
+				BC75667A0D1EFF49005AD9F2 /* ru */,
+				BC75667B0D1EFF49005AD9F2 /* pt */,
+				BC75667C0D1EFF49005AD9F2 /* Norwegian */,
+				BC75667D0D1EFF49005AD9F2 /* Japanese */,
+				BC75667E0D1EFF49005AD9F2 /* it */,
+				BC75667F0D1EFF49005AD9F2 /* German */,
+				BC7566800D1EFF49005AD9F2 /* French */,
+				BC7566810D1EFF49005AD9F2 /* Dutch */,
+			);
+			name = audioscrobbler.xib;
+			sourceTree = "<group>";
+		};
+		BC689891046AC30F00A80001 /* Unicodes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC689895046AC32100A80001 /* French */,
+				BC689896046AC32E00A80001 /* Spanish */,
+				BC588016046F9F9C00A80001 /* German */,
+				BC2C26AA0482824B00A80001 /* Dutch */,
+				BCA7F4A704837A9300A80001 /* Swedish */,
+				BCE03A5A061ACC1A00238E7E /* ru */,
+				BCD8710E07669C4A00FAA179 /* zh_TW */,
+				BCD8712B07669D4300FAA179 /* it */,
+				BC3C3177080C9ED500DF9C20 /* zh_CN */,
+				BC881F940D1AFEF100D969B3 /* en */,
+			);
+			name = Unicodes.plist;
+			sourceTree = "<group>";
+		};
+		BC6A2A580D14A1000080E56B /* SynergyPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6A2A590D14A1000080E56B /* en */,
+			);
+			name = SynergyPreferences.xib;
+			sourceTree = "<group>";
+		};
+		BC8815CE0D1AC7E100D969B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8815CF0D1AC7E100D969B3 /* en */,
+				BC88161D0D1ACA5D00D969B3 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCDF68270753B6A100EF20AF /* about.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDF68280753B6A100EF20AF /* Japanese */,
+				BCDF68290753B6A100EF20AF /* French */,
+				BCDF682A0753B6A100EF20AF /* ru */,
+				BCDF682B0753B6A100EF20AF /* Swedish */,
+				BCDF682C0753B6A100EF20AF /* Norwegian */,
+				BCDF682E0753B6A100EF20AF /* Dutch */,
+				BCDF682F0753B6A100EF20AF /* German */,
+				BCDF68300753B6A100EF20AF /* Spanish */,
+				BCD8711207669C8900FAA179 /* zh_TW */,
+				BCD8712707669D4300FAA179 /* it */,
+				BCB5C0E107D7DF4A00D08CA9 /* tr */,
+				BC3C3172080C9ECD00DF9C20 /* zh_CN */,
+				BC881F920D1AFEF100D969B3 /* en */,
+			);
+			name = about.rtf;
+			sourceTree = "<group>";
+		};
+		F58C12A803991E3601B0D373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58C12B103991E4E01B0D373 /* Spanish */,
+				BCC06707045CF19700A80001 /* French */,
+				BC689898046BE0FC00A80001 /* Japanese */,
+				BC588013046F9F6F00A80001 /* German */,
+				BCA7F4A3048379BC00A80001 /* Swedish */,
+				BCA7F4A404837A0C00A80001 /* Dutch */,
+				BCF3AFB0060B3CAF00B2B13C /* ru */,
+				BC2D22EB072E9D6D007E3CBD /* Norwegian */,
+				BCD8710B07669C4A00FAA179 /* zh_TW */,
+				BCD8712807669D4300FAA179 /* it */,
+				BC3C3173080C9ECD00DF9C20 /* zh_CN */,
+				BC881F960D1AFEF100D969B3 /* en */,
+				BC5346E00D200F2F00D8D287 /* pt */,
+				BC5346E10D200F2F00D8D287 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F58C12AA03991E3601B0D373 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58C12B203991E6001B0D373 /* Spanish */,
+				BC2B328A0457FF1F00A80001 /* French */,
+				BC68988904691BF000A80001 /* Japanese */,
+				BC588014046F9F8B00A80001 /* German */,
+				BC2C26AB0482825B00A80001 /* Dutch */,
+				BCA7F4A504837A4100A80001 /* Swedish */,
+				BCF3AFAF060B3C9E00B2B13C /* ru */,
+				BCB0BD8A0682231300FFC46C /* Norwegian */,
+				BCD86C87076696EA00FAA179 /* pt */,
+				BCD8710C07669C4A00FAA179 /* zh_TW */,
+				BCD8712907669D4300FAA179 /* it */,
+				BCB5C0F107D7DF5900D08CA9 /* tr */,
+				BC3C3174080C9ECD00DF9C20 /* zh_CN */,
+				BC881F950D1AFEF100D969B3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F58C12AC03991E3601B0D373 /* OrgWincentSynergyPref.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC881F910D1AFEF100D969B3 /* en */,
+			);
+			name = OrgWincentSynergyPref.xib;
+			sourceTree = "<group>";
+		};
+		F5B86F61039931F1010F9052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B86F6A0399320C010F9052 /* Spanish */,
+				BCBB9A370470727600A80001 /* Dutch */,
+				BCF3AFB1060B3D2A00B2B13C /* ru */,
+				BCD86CA507669B3600FAA179 /* zh_TW */,
+				BCD8714007669DC400FAA179 /* it */,
+				BC3C3168080C9E8D00DF9C20 /* zh_CN */,
+				BC881F860D1AFE9300D969B3 /* en */,
+				BC5346D70D200ED600D8D287 /* German */,
+				BC5346D80D200ED600D8D287 /* pt */,
+				BC5346D90D200ED600D8D287 /* Norwegian */,
+				BC5346DA0D200ED600D8D287 /* tr */,
+				BC5346DB0D200ED600D8D287 /* French */,
+				BC5346DC0D200ED600D8D287 /* Japanese */,
+				BC5346F70D200F7100D8D287 /* Swedish */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5B86F63039931F1010F9052 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B86F6B03993218010F9052 /* Spanish */,
+				BC2B328804574EF800A80001 /* French */,
+				BC68988B04691C0700A80001 /* Japanese */,
+				BC588017046FA03100A80001 /* German */,
+				BCBB9A360470726C00A80001 /* Dutch */,
+				BCA7F4A804837B7300A80001 /* Swedish */,
+				BCF3AFB2060B3D4700B2B13C /* ru */,
+				BCD86C680766964800FAA179 /* pt */,
+				BCD86CA607669B3600FAA179 /* zh_TW */,
+				BCD8714107669DC400FAA179 /* it */,
+				BCB5C0F807D7DF7B00D08CA9 /* tr */,
+				BC3C3169080C9E8D00DF9C20 /* zh_CN */,
+				BC881F850D1AFE9300D969B3 /* en */,
+				BCD1967F0D3258D400D324C3 /* Norwegian */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5B86F65039931F1010F9052 /* synergyMain.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC881F870D1AFE9300D969B3 /* en */,
+			);
+			name = synergyMain.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1567C10D186568001991C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Synergy Prefs + SynergyPref";
+			};
+			name = Debug;
+		};
+		BC1567C20D186568001991C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Synergy Prefs + SynergyPref";
+			};
+			name = Release;
+		};
+		BC1A68FC085BD178004E0E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF30FF401C6007AE543 /* debug-style.xcconfig */;
+			buildSettings = {
+				INFOPLIST_PREFIX_HEADER = WOSynergy_Version.h;
+			};
+			name = Debug;
+		};
+		BC1A68FD085BD178004E0E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF20FF401C6007AE543 /* release-style.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_IDENTIFIER = org.wincent.synergy;
+				INFOPLIST_PREFIX_HEADER = WOSynergy_Version.h;
+			};
+			name = Release;
+		};
+		BC6A2A410D149F510080E56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF50FF401C6007AE543 /* cocoa-app-target.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SynergyPreferences/Info.plist;
+				PRODUCT_NAME = "Synergy Preferences";
+			};
+			name = Debug;
+		};
+		BC6A2A420D149F510080E56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF50FF401C6007AE543 /* cocoa-app-target.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SynergyPreferences/Info.plist;
+				PRODUCT_NAME = "Synergy Preferences";
+			};
+			name = Release;
+		};
+		BC881F3F0D1AD08D00D969B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Update build number";
+			};
+			name = Debug;
+		};
+		BC881F400D1AD08D00D969B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Update build number";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BC8B9A740D22EC7F00A11CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Distribution;
+			};
+			name = Debug;
+		};
+		BC8B9A750D22EC7F00A11CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Distribution;
+			};
+			name = Release;
+		};
+		BCBE22E1093B34BD00FAD628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF40FF401C6007AE543 /* pref-pane-target.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/Synergy Preferences.app/Contents/MacOS/Synergy Preferences";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SYNERGY_PREF_BUILD,
+					DEBUG,
+				);
+				INFOPLIST_FILE = SynergyPref/Info.plist;
+				PRODUCT_NAME = Synergy;
+			};
+			name = Debug;
+		};
+		BCBE22E2093B34BD00FAD628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF40FF401C6007AE543 /* pref-pane-target.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/Synergy Preferences.app/Contents/MacOS/Synergy Preferences";
+				GCC_PREPROCESSOR_DEFINITIONS = SYNERGY_PREF_BUILD;
+				INFOPLIST_FILE = SynergyPref/Info.plist;
+				PRODUCT_NAME = Synergy;
+			};
+			name = Release;
+		};
+		BCBE235C093B34BD00FAD628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF50FF401C6007AE543 /* cocoa-app-target.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SOURCE_ROOT)/SynergyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SYNERGY_APP_BUILD,
+					DEBUG,
+				);
+				INFOPLIST_FILE = SynergyApp/Info.plist;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = Synergy;
+			};
+			name = Debug;
+		};
+		BCBE235D093B34BD00FAD628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B9CF50FF401C6007AE543 /* cocoa-app-target.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				FRAMEWORK_SEARCH_PATHS = "$(SOURCE_ROOT)/SynergyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = SYNERGY_APP_BUILD;
+				INFOPLIST_FILE = SynergyApp/Info.plist;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = Synergy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1567DE0D1865B1001991C5 /* Build configuration list for PBXAggregateTarget "Synergy Prefs + SynergyPref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1567C10D186568001991C5 /* Debug */,
+				BC1567C20D186568001991C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1A68FB085BD178004E0E61 /* Build configuration list for PBXProject "Synergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1A68FC085BD178004E0E61 /* Debug */,
+				BC1A68FD085BD178004E0E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A2A430D149F510080E56B /* Build configuration list for PBXNativeTarget "Synergy Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A2A410D149F510080E56B /* Debug */,
+				BC6A2A420D149F510080E56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC881F500D1AD0B200D969B3 /* Build configuration list for PBXAggregateTarget "Update build number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC881F3F0D1AD08D00D969B3 /* Debug */,
+				BC881F400D1AD08D00D969B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8B9A860D22ECE600A11CB9 /* Build configuration list for PBXAggregateTarget "Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8B9A740D22EC7F00A11CB9 /* Debug */,
+				BC8B9A750D22EC7F00A11CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBE22E0093B34BD00FAD628 /* Build configuration list for PBXNativeTarget "SynergyPref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBE22E1093B34BD00FAD628 /* Debug */,
+				BCBE22E2093B34BD00FAD628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBE235B093B34BD00FAD628 /* Build configuration list for PBXNativeTarget "SynergyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBE235C093B34BD00FAD628 /* Debug */,
+				BCBE235D093B34BD00FAD628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

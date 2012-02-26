@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>synergyButtons</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>SynergyButtons.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Synergy Button Set</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>Snrg</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Synergy</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Synergy version WO_INFO_PLIST_VERSION (WO_BUILDNUMBER), Copyright WO_COPYRIGHT_YEAR Wincent Colaiuta</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Synergy Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Synergy.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.wincent.Synergy</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Synergy</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>version WO_INFO_PLIST_VERSION</string>
+	<key>WOMarketingVersion</key>
+	<string>WO_INFO_PLIST_VERSION</string>
+	<key>CFBundleSignature</key>
+	<string>Snrg</string>
+	<key>CFBundleVersion</key>
+	<string>WO_BUILDNUMBER</string>
+	<key>LSUIElement</key>
+	<string>1</string>
+	<key>NSMainNibFile</key>
+	<string>synergyMain</string>
+	<key>NSPrincipalClass</key>
+	<string>HotkeyCapableApplication</string>
+	<key>WOCopyrightYear</key>
+	<string>WO_COPYRIGHT_YEAR</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.6</string>
+</dict>
+</plist>

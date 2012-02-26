@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activate global hot-keys</key>
+	<true/>
+	<key>Activate global menu</key>
+	<true/>
+	<key>Separate global menu only when controls hidden</key>
+	<true/>
+	<key>Menu bar button style</key>
+	<string>Xidius' Transparent Bar</string>
+	<key>Use NSMenuExtra API</key>
+	<false/>
+	<key>Automatic Internet version checking interval</key>
+	<real>86400.0</real>
+	<key>Use floating notification window</key>
+	<true/>
+	<key>Delay before removing floater</key>
+	<real>10.0</real>
+	<key>Floater transparency</key>
+	<real>0.20</real>
+	<key>Floater size</key>
+	<integer>16</integer>
+	<key>Floater horizontal segment</key>
+	<integer>0</integer>
+	<key>Floater vertical segment</key>
+	<integer>0</integer>
+	<key>Floater horizontal offset</key>
+	<real>48.0</real>
+	<key>Floater vertical offset</key>
+	<real>48.0</real>
+	<key>Index of screen on which floater lies</key>
+	<integer>0</integer>
+	<key>Automatically connect to Internet</key>
+	<true/>
+	<key>Preprocess ID3 tags before searching</key>
+	<true/>
+	<key>Bring iTunes to front when switching playlists</key>
+	<false/>
+	<key>Include album in floater</key>
+	<true/>
+	<key>Include artist in floater</key>
+	<true/>
+	<key>Include composer in floater</key>
+	<false/>
+	<key>Include duration in floater</key>
+	<false/>
+	<key>Include year in floater</key>
+	<false/>
+	<key>Include rating in floater</key>
+	<true/>
+	<key>Floater graphic type</key>
+	<integer>0</integer>
+	<key>Show extra feedback window</key>
+	<false/>
+	<key>Activate next track button</key>
+	<true/>
+	<key>Activate play/pause button</key>
+	<true/>
+	<key>Activate previous track button</key>
+	<true/>
+	<key>Pixel spacing between menu bar controls</key>
+	<integer>0</integer>
+	<key>Display Menu Bar controls only when iTunes running</key>
+	<false/>
+	<key>Include Launch and Quit iTunes menu items</key>
+	<true/>
+	<key>Include playlists submenu</key>
+	<true/>
+	<key>Include recently played tracks in menu</key>
+	<true/>
+	<key>Include artist in recently played tracks</key>
+	<false/>
+	<key>Number of recently played tracks</key>
+	<integer>10</integer>
+	<key>Key code for next track operation</key>
+	<integer>111</integer>
+	<key>Key code for play/pause operation</key>
+	<integer>105</integer>
+	<key>Key code for previous track operation</key>
+	<integer>103</integer>
+	<key>Key code for quit operation</key>
+	<integer>101</integer>
+	<key>Key code for show/hide operation</key>
+	<integer>109</integer>
+	<key>Key code for volume up operation</key>
+	<integer>0</integer>
+	<key>Key code for volume down operation</key>
+	<integer>0</integer>
+	<key>Key code for the floater show/hide operation</key>
+	<integer>0</integer>
+	<key>Key code for the toggle mute operation</key>
+	<integer>0</integer>
+	<key>Key code for the toggle shuffle operation</key>
+	<integer>0</integer>
+	<key>Key code for the set repeat mode operation</key>
+	<integer>0</integer>
+	<key>Key code for the increase rating operation</key>
+	<integer>0</integer>
+	<key>Key code for the decrease rating operation</key>
+	<integer>0</integer>
+	<key>Key code for the rate as 0 star operation</key>
+	<integer>0</integer>
+	<key>Key code for the rate as 1 star operation</key>
+	<integer>0</integer>
+	<key>Key code for the rate as 2 star operation</key>
+	<integer>0</integer>
+	<key>Key code for the rate as 3 star operation</key>
+	<integer>0</integer>
+	<key>Key code for the rate as 4 star operation</key>
+	<integer>0</integer>
+	<key>Key code for the rate as 5 star operation</key>
+	<integer>0</integer>
+	<key>Key code for the activate iTunes operation</key>
+	<integer>0</integer>
+	<key>Unicode for next track operation</key>
+	<string>0xf70f</string>
+	<key>Unicode for play/pause operation</key>
+	<string>0xf710</string>
+	<key>Unicode for previous track operation</key>
+	<string>0xf70e</string>
+	<key>Unicode for quit operation</key>
+	<string>0xf70c</string>
+	<key>Unicode for show/hide operation</key>
+	<string>0xf70d</string>
+	<key>Unicode for volume up operation</key>
+	<string>0x0000</string>
+	<key>Unicode for volume down operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the floater show/hide operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the toggle mute operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the toggle shuffle operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the set repeat mode operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the increase rating operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the decrease rating operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the rate as 0 star operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the rate as 1 star operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the rate as 2 star operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the rate as 3 star operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the rate as 4 star operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the rate as 5 star operation</key>
+	<string>0x0000</string>
+	<key>Unicode for the activate iTunes operation</key>
+	<string>0x0000</string>
+	<key>Launch at login</key>
+	<false/>
+	<key>Modifier key for next track operation</key>
+	<integer>131328</integer>
+	<key>Modifier key for play/pause operation</key>
+	<integer>131328</integer>
+	<key>Modifier key for previous track operation</key>
+	<integer>131328</integer>
+	<key>Modifier key for quit operation</key>
+	<integer>131328</integer>
+	<key>Modifier key for show/hide operation</key>
+	<integer>131328</integer>
+	<key>Modifier key for volume up operation</key>
+	<integer>0</integer>
+	<key>Modifier key for volume down operation</key>
+	<integer>0</integer>
+	<key>Modifier for the floater show/hide operation</key>
+	<integer>0</integer>
+	<key>Modifier for the toggle mute operation</key>
+	<integer>0</integer>
+	<key>Modifier for the toggle shuffle operation</key>
+	<integer>0</integer>
+	<key>Modifier for the set repeat mode operation</key>
+	<integer>0</integer>
+	<key>Modifier for the increase rating operation</key>
+	<integer>0</integer>
+	<key>Modifier for the decrease rating operation</key>
+	<integer>0</integer>
+	<key>Modifier for the rate as 0 star operation</key>
+	<integer>0</integer>
+	<key>Modifier for the rate as 1 star operation</key>
+	<integer>0</integer>
+	<key>Modifier for the rate as 2 star operation</key>
+	<integer>0</integer>
+	<key>Modifier for the rate as 3 star operation</key>
+	<integer>0</integer>
+	<key>Modifier for the rate as 4 star operation</key>
+	<integer>0</integer>
+	<key>Modifier for the rate as 5 star operation</key>
+	<integer>0</integer>
+	<key>Modifier for the activate iTunes operation</key>
+	<integer>0</integer>
+	<key>Registration fee paid</key>
+	<false/>
+	<key>Serial number notice</key>
+	<false/>
+	<key>Previous track action behaves like iTunes</key>
+	<true/>
+	<key>Use random button style</key>
+	<false/>
+	<key>Communication interval between Synergy and iTunes</key>
+	<integer>3</integer>
+</dict>
+</plist>
