@@ -53,3 +53,23 @@ developer over the last ten years. Its been an amazing ride.
 
 Wincent Colaiuta
 February 25, 2012
+
+INSTALLATION
+------------
+
+1. After cloning, run
+
+git submodule update --init --rebase
+
+This will fetch the WOPublic shared code and build tools
+
+
+2. Download the Growl 2.0.1 SDK from http://growl.info/downloads. Extract the
+zip, then copy Framework/Growl.framework to the SynergyApp folder
+
+
+LICENSE
+-------
+
+Simplified BSD License. Copyright Wincent Colaiuta.
+
