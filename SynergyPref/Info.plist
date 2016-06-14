@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Synergy</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Synergy version WO_INFO_PLIST_VERSION (WO_BUILDNUMBER), Copyright WO_COPYRIGHT_YEAR Wincent Colaiuta</string>
+	<string>Synergy version WO_INFO_PLIST_VERSION (WO_BUILDNUMBER), Copyright WO_COPYRIGHT_YEAR Greg Hurrell</string>
 	<key>CFBundleHelpBookFolder</key>
 	<string>Synergy Help</string>
 	<key>CFBundleIdentifier</key>

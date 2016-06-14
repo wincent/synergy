@@ -2,8 +2,8 @@
 //  WOPreferencePane.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on 18 December 2007.
-//  Copyright 2007-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 18 December 2007.
+//  Copyright 2007-present Greg Hurrell.
 
 typedef enum WOPreferencePaneUnselectReply
 {

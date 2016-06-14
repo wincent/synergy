@@ -2,8 +2,8 @@
 //  WOSynergyView.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Mon Dec 09 2002.
-//  Copyright 2002-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Mon Dec 09 2002.
+//  Copyright 2002-present Greg Hurrell.
 
 #import <AppKit/AppKit.h>
 

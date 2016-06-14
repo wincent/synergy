@@ -1,6 +1,6 @@
 // WOPreferences.h
 //
-// Copyright 2002-2010 Wincent Colaiuta.
+// Copyright 2002-present Greg Hurrell.
 
 #import <Foundation/Foundation.h>
 

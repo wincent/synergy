@@ -2,8 +2,8 @@
 //  NSString+WOExtensions.m
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Wed Apr 09 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Wed Apr 09 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 // category header
 #import "NSString+WOExtensions.h"

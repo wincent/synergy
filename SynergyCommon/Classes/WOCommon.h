@@ -2,8 +2,8 @@
 //  WOCommon.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Tue Jan 07 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Tue Jan 07 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 /*
 

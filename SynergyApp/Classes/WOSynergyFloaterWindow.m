@@ -1,7 +1,7 @@
 // WOSynergyFloaterWindow.m
 // Synergy
 //
-// Copyright 2003-2009 Wincent Colaiuta.
+// Copyright 2003-present Greg Hurrell.
 
 #import <Carbon/Carbon.h>
 #import <AppKit/AppKit.h>

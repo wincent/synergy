@@ -2,8 +2,8 @@
 //  WOPreferenceWindow.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on 19 December 2007.
-//  Copyright 2007-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 19 December 2007.
+//  Copyright 2007-present Greg Hurrell.
 
 @class WOPreferencePane;
 

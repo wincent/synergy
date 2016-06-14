@@ -2,8 +2,8 @@
 //  main.m
 //  Synergy Preferencs
 //
-//  Created by Wincent Colaiuta on 16 December 2007.
-//  Copyright 2007-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 16 December 2007.
+//  Copyright 2007-present Greg Hurrell.
 
 #import <Cocoa/Cocoa.h>
 

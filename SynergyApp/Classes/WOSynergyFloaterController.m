@@ -2,8 +2,8 @@
 //  WOSynergyFloaterController.m
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Wed Jan 15 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Wed Jan 15 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 #import "WOSynergyFloaterController.h"
 #import "WOSynergyGlobal.h"

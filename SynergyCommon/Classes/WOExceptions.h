@@ -2,8 +2,8 @@
 //  WOExceptions.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Tue Mar 25 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Tue Mar 25 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 #define WO_DOWNLOAD_ALBUM_COVER_IMAGE_FAILURE \
 @"DownloadAlbumCoverImageFailure"

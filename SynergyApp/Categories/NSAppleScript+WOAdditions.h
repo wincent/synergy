@@ -2,8 +2,8 @@
 //  NSAppleScript+WOAdditions.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on 9 June 2006.
-//  Copyright 2006-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 9 June 2006.
+//  Copyright 2006-present Greg Hurrell.
 
 #import <Cocoa/Cocoa.h>
 

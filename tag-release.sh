@@ -1,5 +1,5 @@
 #!/bin/sh -e
-# Copyright 2007-2010 Wincent Colaiuta.
+# Copyright 2007-present Greg Hurrell.
 
 #
 # Configuration

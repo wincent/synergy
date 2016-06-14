@@ -1,7 +1,7 @@
 // WOAudioscrobbler.m
 // Synergy
 //
-// Copyright 2006-2009 Wincent Colaiuta. All right reserved.
+// Copyright 2006-present Greg Hurrell. All right reserved.
 
 // class header
 #import "WOAudioscrobbler.h"

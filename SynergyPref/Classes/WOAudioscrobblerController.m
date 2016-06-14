@@ -1,7 +1,7 @@
 // WOAudioscrobblerController.m
 // Synergy
 //
-// Copyright 2006-2010 Wincent Colaiuta.
+// Copyright 2006-present Greg Hurrell.
 
 // class header
 #import "WOAudioscrobblerController.h"

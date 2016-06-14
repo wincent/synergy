@@ -2,8 +2,8 @@
 //  WOButtonState.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Wed Mar 12 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Wed Mar 12 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 #import <Foundation/Foundation.h>
 

@@ -2,8 +2,8 @@
 //  WOCarbonWrappers.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Tue Dec 31 2002.
-//  Copyright 2002-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Tue Dec 31 2002.
+//  Copyright 2002-present Greg Hurrell.
 
 #import <Foundation/Foundation.h>
 

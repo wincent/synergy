@@ -1,7 +1,7 @@
 // WOSynergyPreferencesController.m
 // Synergy
 //
-// Copyright 2007-2010 Wincent Colaiuta. All rights reserved.
+// Copyright 2007-present Greg Hurrell. All rights reserved.
 
 // class header
 #import "WOSynergyPreferencesController.h"

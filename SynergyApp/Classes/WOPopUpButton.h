@@ -2,8 +2,8 @@
 //  WOPopUpButton.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Sun Apr 27 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Sun Apr 27 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 //  Simple NSPopUpButton-like class that doesn't draw the down-pointing arrow
 

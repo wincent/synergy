@@ -2,8 +2,8 @@
 //  WODebug.h
 //  (Originally part of Synergy project)
 //
-//  Created by Wincent Colaiuta on Thu Dec 12 2002.
-//  Copyright 2002-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Thu Dec 12 2002.
+//  Copyright 2002-present Greg Hurrell.
 
 /*
 

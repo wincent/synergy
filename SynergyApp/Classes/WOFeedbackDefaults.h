@@ -2,8 +2,8 @@
 //  WOFeedbackDefaults.m
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Sat Jan 25 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Sat Jan 25 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 // These settings will produce a feedback window reminiscent of Apple's volume/
 // mute/eject overlays:

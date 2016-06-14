@@ -1,7 +1,7 @@
 // WOCoverDownloader.m
 // Synergy
 //
-// Copyright 2003-2010 Wincent Colaiuta. All rights reserved.
+// Copyright 2003-present Greg Hurrell. All rights reserved.
 
 #import "SynergyController.h"
 #import "WOCoverDownloader.h"

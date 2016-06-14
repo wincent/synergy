@@ -1,5 +1,5 @@
 // WOPreferenceWindow.m
-// Copyright 2007-2010 Wincent Colaiuta.
+// Copyright 2007-present Greg Hurrell.
 
 // class header
 #import "WOPreferenceWindow.h"

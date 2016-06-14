@@ -1,5 +1,5 @@
 // WOSynergyGlobal.h
-// Copyright 2002-2011 Wincent Colaiuta. All rights reserved.
+// Copyright 2002-present Greg Hurrell. All rights reserved.
 //
 // Global header file for the Synergy project
 

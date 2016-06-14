@@ -1,7 +1,7 @@
 // WOCoverDownloader.h
 // Synergy
 //
-// Copyright 2003-2009 Wincent Colaiuta. All rights reserved.
+// Copyright 2003-present Greg Hurrell. All rights reserved.
 
 #import <Cocoa/Cocoa.h>
 

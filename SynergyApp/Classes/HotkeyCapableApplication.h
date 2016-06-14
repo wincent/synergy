@@ -2,8 +2,8 @@
 //  HotkeyCapableApplication.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Fri Nov 22 2002.
-//  Copyright 2002-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Fri Nov 22 2002.
+//  Copyright 2002-present Greg Hurrell.
 
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>

@@ -2,8 +2,8 @@
 //  SynergyController+WOAudioscrobbler.h
 //  Synergy
 //
-//  Created by Wincent Colaiuta on 6 November 2006.
-//  Copyright 2006-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 6 November 2006.
+//  Copyright 2006-present Greg Hurrell.
 
 #import <Cocoa/Cocoa.h>
 #import "SynergyController.h"

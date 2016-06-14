@@ -2,8 +2,8 @@
 //  WOSynergyView.m
 //  Synergy
 //
-//  Created by Wincent Colaiuta on 9 December 2002.
-//  Copyright 2002-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 9 December 2002.
+//  Copyright 2002-present Greg Hurrell.
 
 #import "WOSynergyView.h"
 #import "HotkeyCapableApplication.h"

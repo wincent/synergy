@@ -2,8 +2,8 @@
 //  WODistributedNotification.m
 //  (Originally part of Synergy project)
 //
-//  Created by Wincent Colaiuta on Thu Nov 28 2002.
-//  Copyright 2002-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Thu Nov 28 2002.
+//  Copyright 2002-present Greg Hurrell.
 
 #import "WODistributedNotification.h"
 #import "WODebug.h"

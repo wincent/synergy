@@ -1,7 +1,7 @@
 // HotkeyCapableApplication.m
 // Synergy
 //
-// Copyright 2002-2010 Wincent Colaiuta. All rights reserved.
+// Copyright 2002-present Greg Hurrell. All rights reserved.
 
 #import <Carbon/Carbon.h>
 

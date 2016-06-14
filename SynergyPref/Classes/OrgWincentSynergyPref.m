@@ -1,5 +1,5 @@
 // SynergyPref.m
-// Copyright 2002-2010 Wincent Colaiuta. All rights reserved.
+// Copyright 2002-present Greg Hurrell. All rights reserved.
 
 // Originally based on System Pref Pane tutorial at:
 // http://www.cocoadevcentral.com/tutorials/showpage.php?show=00000035.php

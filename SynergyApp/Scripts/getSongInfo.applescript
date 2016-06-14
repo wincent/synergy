@@ -1,6 +1,6 @@
 -- getSongInfo.applescript
 -- Synergy
--- Copyright 2002-2009 Wincent Colaiuta. All rights reserved.
+-- Copyright 2002-present Greg Hurrell. All rights reserved.
 
 tell application "iTunes"
 	try

@@ -2,8 +2,8 @@
 //  NSImage+WOAdditions.m
 //  Synergy
 //
-//  Created by Wincent Colaiuta on 09/06/06.
-//  Copyright 2006-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on 09/06/06.
+//  Copyright 2006-present Greg Hurrell.
 
 #import "NSImage+WOAdditions.h"
 

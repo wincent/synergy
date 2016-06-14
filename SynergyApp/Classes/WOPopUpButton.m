@@ -2,8 +2,8 @@
 //  WOPopUpButton.m
 //  Synergy
 //
-//  Created by Wincent Colaiuta on Sun Apr 27 2003.
-//  Copyright 2003-2008 Wincent Colaiuta.
+//  Created by Greg Hurrell on Sun Apr 27 2003.
+//  Copyright 2003-present Greg Hurrell.
 
 // elements and ideas taken from sample code by Matt Gemmell at:
 // http://www.scotlandsoftware.com/products/source/
