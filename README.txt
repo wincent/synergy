@@ -35,10 +35,10 @@ and third-party code (such as a local copy of the Growl framework) which I did
 not want to distribute. I'm hoping this will be just the first of several such
 open source releases that I can make in the near future.
 
-Synergy will still be available for download and purchase on wincent.com. Maybe
-in the future my circumstances will change and I'll be able to fully re-enter
-the world of Mac OS X development, in which case I'd like to work on getting
-Synergy into Apple's App Store.
+Synergy will still be available for download. Maybe in the future my
+circumstances will change and I'll be able to fully re-enter the world of Mac OS
+X development, in which case I'd like to work on getting Synergy into Apple's
+App Store.
 
 In any case, here's the code, in all its shameful glory. This was the first time
 I'd written a piece of software that went beyond a pet project. Looking back at
@@ -51,7 +51,7 @@ would not look out of place on thedailywtf.com.
 On the other hand, looking back on it makes me realize how much I've grown as a
 developer over the last ten years. Its been an amazing ride.
 
-Wincent Colaiuta
+Greg Hurrell
 February 25, 2012
 
 INSTALLATION
@@ -71,4 +71,25 @@ zip, then copy Framework/Growl.framework to the SynergyApp folder
 LICENSE
 -------
 
-Simplified BSD License. Copyright Wincent Colaiuta.
+Copyright 2002-present Greg Hurrell. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
